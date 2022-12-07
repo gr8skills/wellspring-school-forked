@@ -1,0 +1,22 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+
+.welcome-message{
+    text-align: center;
+    margin-top:70px;
+    margin-bottom:80px;
+    font-size:50px;
+}
+.slider-container{
+
+    img{
+     position: relative;
+    width: 100%;
+    overflow: hidden;
+    // height: 40vh;
+    border-radius:10px;
+    object-fit: cover;
+
+    }
+}

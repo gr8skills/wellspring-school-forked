@@ -1,0 +1,13 @@
+@import "../../shared-styles";
+@import "../../variables";
+
+
+
+.calendar-container{
+    .calendar-box{
+background-color:$themecolor;
+height:120px;
+width:120px;
+border-radius: 10px;
+    }
+}

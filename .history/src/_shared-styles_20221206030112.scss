@@ -1,0 +1,28 @@
+@media screen and (max-width:620px){
+    .flexyM{
+        display:flex;
+    }
+    .side-menu{
+        display:none;
+    }
+}
+@media screen and (min-width:620px){
+    .flexy{
+        display:flex;
+    }
+    .spread{
+        display:flex;
+    }
+}
+
+.side-menu{
+    height:fit-content;
+    padding:40px;
+    background-color:#F9FAFA;
+    border-radius: 10px;
+    ul li{
+        line-height:60px;
+       
+    }
+    ul li .active{color:themecolor2 !important;}
+}

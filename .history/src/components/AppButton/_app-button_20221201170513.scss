@@ -1,0 +1,10 @@
+@import "../../shared-styles";
+@import "./overides";
+@import "../../variables";
+
+.app-button{
+    background-color:$themecolor;
+    color:white;
+    padding:15px ;
+    font-weight:bold;
+}

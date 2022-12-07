@@ -1,0 +1,18 @@
+@import "../../shared-styles";
+@import "../../variables";
+
+
+.vision{
+  img{
+    height:10px;
+    width:10px;
+    margin:17px 10px;
+  }
+  ul li{
+   line-height:45px;
+   margin-bottom:40px;
+  }
+  ul{
+    margin-right:50px;
+  }
+}

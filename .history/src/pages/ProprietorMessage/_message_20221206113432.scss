@@ -1,0 +1,9 @@
+@import "../../shared-styles";
+@import "../../variables";
+
+
+.message{
+  span{color:$themecolor2;}
+  strong{font-size:20px;
+  color:rgb(98, 97, 97);}
+}

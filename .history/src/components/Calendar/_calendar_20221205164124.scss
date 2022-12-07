@@ -1,0 +1,31 @@
+@import "../../shared-styles";
+@import "../../variables";
+
+
+
+.calendar-container{
+            text-align:center;
+border-right:solid 1px rgb(202, 200, 200);
+    .calendar-box{
+background-color:$themecolor2;
+height:100px;
+width:110px;
+border-radius: 10px;
+color:#fff;
+    text-align: center;
+    padding:10px 0;
+margin-left:40px;
+margin-bottom:30px;
+
+    }
+    p{
+        color:grey;
+    }
+    .calendar-day{
+        font-size:35px;
+    }
+    .calendar-description{
+        font-size:20px;
+        text-align:center;
+    }
+}

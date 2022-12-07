@@ -1,0 +1,43 @@
+@import "../../shared-styles";
+@import "../../variables";
+
+
+.videoIcon{
+    margin-left:45%;
+    margin-bottom:10%;
+ img{
+    height:70px;
+    width:70px;
+    
+    
+ }
+}
+.admission{
+    .page-body{text-align:center}
+}
+.admission-process{
+
+    span{
+background-color:$themecolor;
+color:white;
+padding:7px 10px;
+border-radius: 50%;
+margin-right:10px;
+}}
+.admission-process-container{
+    background-color:rgb(244, 247, 249);
+    height:fit-content;
+    padding:70px 40px;
+}
+
+.about{
+    text-align:center;
+    line-height: 40px;
+}
+.achievements{
+    img{
+        height:80px;
+        width:80px;
+        left:40%;
+    }
+}

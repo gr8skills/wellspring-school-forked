@@ -1,0 +1,28 @@
+@import "../../shared-styles";
+@import "../../variables";
+
+
+.holder2 {
+  position: relative;
+  img{border}
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay2 {
+  position: absolute;
+ bottom:54px;
+  color: #f1f1f1;
+  width: 100%;
+  opacity:1;
+  color: white;
+  font-size: 20px;
+  padding: 40px ;
+  text-align:center !important;
+}

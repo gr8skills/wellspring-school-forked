@@ -1,0 +1,18 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+
+.slider-header{
+    text-align: center;
+}
+.slider-container{
+    img{
+         position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 40vh;
+    border-radius: :10px;;
+            object-fit: cover;
+
+    }
+}

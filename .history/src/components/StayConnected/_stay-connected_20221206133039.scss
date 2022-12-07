@@ -1,0 +1,22 @@
+
+.stay-connected{
+ height:fit-content;
+  background-image: url("../../assets/sport.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 80px 50px;
+  color:white;
+  border-radius:40px;
+  margin-right:30px;
+  margin-left:60px;
+  object-fit: contain;
+  text-align:center;
+      .news-channel{
+        background-color:white;
+        color:black;
+        padding:30px 50px;
+        height:fit-content;
+        border-radius: 15px;
+        margin-top:40px;
+      }
+}

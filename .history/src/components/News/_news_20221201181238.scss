@@ -1,0 +1,11 @@
+@import "../../shared-styles";
+@import "../../variables";
+.news-container{
+    img{
+        width:100%;
+        border-radius: 10px;
+    }
+    .news-description{
+        margin-top:100px;
+    }
+}

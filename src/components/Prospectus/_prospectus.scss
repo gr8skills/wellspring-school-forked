@@ -1,0 +1,41 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.prospectus-container {
+  margin-top: 150px;
+  height: fit-content;
+  background-color: $themecolor2;
+  width: 100%;
+  padding: 180px 0;
+  background-image: url("../../assets/dotted.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  color: #fff;
+
+  .prospectus {
+    background-color: white;
+    color: black;
+    padding: 50px;
+    height: 350px;
+    border-radius: 10px;
+    h4 {
+      font-size: 22px;
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-size: 30px;
+      margin-bottom: 40px;
+    }
+    p {
+      color: grey;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  }
+  img {
+    width: 100%;
+    margin-top: -130px;
+    border-radius: 10px;
+  }
+}
