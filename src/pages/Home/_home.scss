@@ -145,12 +145,13 @@
   height: fit-content;
   background-color: $themecolor2;
   width: 100%;
-  padding: 120px 0;
+  padding: 250px 0;
   background-image: url("../../assets/dotted.png");
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
   color: #fff;
+  margin-top:-100px;
 }
 
 .welcome-message {

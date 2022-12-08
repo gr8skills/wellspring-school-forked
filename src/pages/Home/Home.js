@@ -15,7 +15,6 @@ import { Heading } from "@chakra-ui/react";
 import Logo from "../../assets/logo2.png";
 import { Carousel as CalendarCarousel } from "@trendyol-js/react-carousel";
 
-
 import { Flex, Spacer, Center, Square, Box, Text } from "@chakra-ui/react";
 // import Slider4 from "../../assets/compute.png";
 import { Testimonials } from "../../components/Testimonials/Testimonials";
@@ -30,6 +29,7 @@ import { AppTab } from "../../components/AppTab/AppTab";
 import { AspectRatio } from "@chakra-ui/react";
 import { EnquiryForm } from "../../components/Form/Form";
 import { Prospectus } from "../../components/Prospectus/Prospectus";
+import { ImageTab } from "../../components/ImageTab/ImageTab";
 export const Home = () => {
   return (
     <>
@@ -120,7 +120,6 @@ export const Home = () => {
             </Carousel.Item> */}
           </Carousel>
           <AppButton text="Apply Here" />
-          
           <div className="welcome-message-header">
             <h1>Welcome to Wellspring College</h1>
           </div>
@@ -210,18 +209,22 @@ export const Home = () => {
           />
         </Carousel.Item>
       </Carousel>
+      <div className="image-tab-container col-md-12 mt7">
+        <ImageTab />
+      </div>{" "}
+
+
+
 
       <div className="tab-container col-md-12">
         <AppTab />
       </div>
-
       <div className="col-md-12 logo-display flexy">
         <div className="col-md-7">&nbsp;</div>
         <div className="col-md-3">
           <img className="col-md-12 imgCaro" src={Logo} alt="Scholar" />
         </div>
       </div>
-
       <div className="events-header">
         <h1>Upcoming Events</h1>
       </div>
@@ -328,7 +331,6 @@ export const Home = () => {
         </div>
         <Button style={{ left: "45%" }}>View all events</Button>
       </div>
-
       <div className="col-md-12 flexy news-container">
         <div className="col-md-1">&nbsp;</div>
         <div className="col-md-5">
@@ -390,7 +392,7 @@ export const Home = () => {
               />
             </div>
           </div>
-          <Button >Follow us on instagram</Button>
+          <Button>Follow us on instagram</Button>
           <div className="col-md-12 flexy handles">
             <div className="col-md-2">&nbsp;</div>
             <div className="col-md-3">
@@ -422,13 +424,11 @@ export const Home = () => {
           </div>
         </div>
       </div>
-
       <div className="enquiry flexy">
         <div className="col-md-6">&nbsp;</div>
 
         <div className="col-md-5">
           <Heading as="h3" size="md">
-        
             Send Us a Message to make Inquiry
           </Heading>{" "}
           <EnquiryForm />
