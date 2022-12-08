@@ -1,6 +1,6 @@
 import Banner from "../../assets/contact-banner.png";
 import Home from "../../assets/home.png";
-import Lab from "../../assets/lab2.png";
+import Fb from "../../assets/f.png";
 
 import Image from "../../assets/Image.png";
 import { Heading } from "@chakra-ui/react";
@@ -8,7 +8,9 @@ import { Link } from "react-router-dom";
 import { PhoneIcon, AddIcon, WarningIcon } from "@chakra-ui/icons";
 
 import "./_contact-us.scss";
+import Map from "./Map";
 import { StayConnected } from "../../components/StayConnected/StayConnected";
+import { EnquiryForm } from "../../components/Form/Form";
 export const ContactUs = () => {
   return (
     <>
@@ -29,13 +31,14 @@ export const ContactUs = () => {
         <div className="col-md-1">&nbsp;</div>
 
         <div className="col-md-4">
-          <Heading size="xl" mb="50px" mt="30px" className="tac">
-            Contact Us
-          </Heading>
           <Heading size="sm" mb="30">
             Wellspring College
           </Heading>
           <ul className="list-unstyled">
+            <li>
+              <PhoneIcon />
+              25B Somide Odujinrin Street, Omole Phase 2, Ikeja, Lagos.
+            </li>{" "}
             <li>
               <PhoneIcon />
               25B Somide Odujinrin Street, Omole Phase 2, Ikeja, Lagos.
@@ -44,16 +47,22 @@ export const ContactUs = () => {
         </div>
 
         <div className="col-md-6 ml2 mt6">
-          {" "}
-          <div className="col-md-12 col-12 mt6">
-            <img className="col-md-12 br" src={Lab} alt="Scholar" />
-          </div>{" "}
-          <div className="col-md-12 col-12 mt2">
-            <img className="col-md-12 br" src={Image} alt="Scholar" />
-          </div>
+          <Heading size="xl" mb="50px" className="tac">
+            Contact
+          </Heading>{" "}
+          <Map />
         </div>
       </div>
+      <div className=" col-md-12 enquiry flexy">
+        <div className="col-md-6">&nbsp;</div>
 
+        <div className="col-md-5">
+          <Heading as="h3" size="md">
+            Send Us a Message to make Inquiry
+          </Heading>{" "}
+          <EnquiryForm />
+        </div>
+      </div>
       <StayConnected />
     </>
   );

@@ -1,11 +1,11 @@
 @import "../../shared-styles";
 @import "../../variables";
 
-
-// .physical-facilities{
-//  p{
-// line-height: 35px;}
-// img{height:10px;
-// width:10px;}
-// ul li{line-height: 35px; font-size:14px}
-// }
+.enquiry {
+    height:1200px;
+  background-image: url("../../assets/mask.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 80px 50px;
+  color:white;
+}
