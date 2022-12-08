@@ -5,7 +5,7 @@ import Fb from "../../assets/f.png";
 import Image from "../../assets/Image.png";
 import { Heading } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-import { PhoneIcon, AddIcon, WarningIcon } from "@chakra-ui/icons";
+import Icofont from "react-icofont";
 
 import "./_contact-us.scss";
 import Map from "./Map";
@@ -27,21 +27,35 @@ export const ContactUs = () => {
         </a>
         <p>Contact Us</p>
       </div>
-      <div className="col-md-12 flexy ">
+      <div className="col-md-12 flexy contact">
         <div className="col-md-1">&nbsp;</div>
 
-        <div className="col-md-4">
+        <div className="col-md-4 mt7">
           <Heading size="sm" mb="30">
             Wellspring College
           </Heading>
           <ul className="list-unstyled">
             <li>
-              <PhoneIcon />
+              <i class="icofont-location-pin"></i>
               25B Somide Odujinrin Street, Omole Phase 2, Ikeja, Lagos.
             </li>{" "}
             <li>
-              <PhoneIcon />
-              25B Somide Odujinrin Street, Omole Phase 2, Ikeja, Lagos.
+              <i class="icofont-phone"></i> (+234) 818- 648-3476 <br />
+              (+234) 908-5772-150
+            </li>
+            <li>
+              <i class="icofont-briefcase-1"></i> Monday - Friday: 08:00-17:00
+              <br />
+              Saturday & Sunday: Closed
+            </li>
+            <li>
+              <i class="icofont-ui-message"></i> info@wellspringcollege.org
+            </li>
+            <li>
+              <i class="icofont-facebook"></i> Wellspring College
+            </li>{" "}
+            <li>
+              <i class="icofont-instagram ig"></i> Wellspring_college
             </li>
           </ul>
         </div>

@@ -9,3 +9,15 @@
   padding: 80px 50px;
   color:white;
 }
+
+.contact {
+  ul li{line-height: 50px; }
+ ul li i{
+   color:$themecolor2 ;
+    margin-right:20px;
+    font-size:25px;
+  }
+  .ig{
+    color:#EE6645 !important;
+  }
+}
