@@ -1,8 +1,6 @@
 export const navMenus = {
   about: [
-    { title: "About Us",
-     path: "/about-us", 
-     cName: "dropdown-link" },
+    { title: "About Us", path: "/about-us", cName: "dropdown-link" },
     {
       title: "Proprietor’s Message",
       path: "/proprietor-message",
@@ -30,9 +28,40 @@ export const navMenus = {
     },
   ],
   curriculum: [
-    { title: "National Curriculum", path: "/national-curriculum", cName: "dropdown-link" },
-    { title: "Co-Curricular", path: "/co-curricular", cName: "dropdown-link" }
-    
+    {
+      title: "National Curriculum",
+      path: "/national-curriculum",
+      cName: "dropdown-link",
+    },
+    { title: "Co-Curricular", path: "/co-curricular", cName: "dropdown-link" },
+    {
+      title: "Extra-Curricular",
+      path: "/extra-curricular",
+      cName: "dropdown-link",
+    },
+    {
+      title: "Beyond the Classroom Initiative",
+      path: "/beyond-classroom",
+      cName: "dropdown-link",
+    },
+  ],
+  facilities: [
+    {
+      title: "Physical Facilities",
+      path: "/physical-facilities",
+      cName: "dropdown-link",
+    },
+    { title: "Sports", path: "/sports", cName: "dropdown-link" },
+    {
+      title: "Boarding Facilities",
+      path: "/boarding-facilities",
+      cName: "dropdown-link",
+    },
+    {
+      title: "Health & Catering",
+      path: "/health-catering",
+      cName: "dropdown-link",
+    },
   ],
 };
 

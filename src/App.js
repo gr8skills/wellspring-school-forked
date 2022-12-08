@@ -16,6 +16,15 @@ import { TeachingTeam } from './pages/TeachingTeam/TeachingTeam';
 import { Admission } from './pages/Admission/Admission';
 import { NationalCurriculum } from './pages/NationalCurriculum/NationalCurriculum';
 import { CoCurricular } from './pages/CoCurriculum/CoCurricular';
+import { ExtraCurricular } from './pages/ExtraCurricular/ExtraCurricular';
+import { BeyondClassroom } from './pages/BeyondClassroom/BeyondClassroom';
+import { PhysicalFacilities } from './pages/PhysicalFacilities/PhysicalFacilities';
+import { Sports } from './pages/Sports/Sports';
+import { BoardingFacilities } from './pages/BoardingFacilities/BoardingFacilities';
+import { HealthCare } from './pages/HealthCare/HealthCare';
+import { Gallery } from './pages/Gallery/Gallery';
+import { SchoolLife } from './pages/SchoolLife/SchoolLife';
+import { ContactUs } from './pages/ContactUs/ContactUs';
 
 function App() {
   return (
@@ -33,6 +42,15 @@ function App() {
         <Route path={"/admission"} element={<Admission />} />
         <Route path={"/national-curriculum"} element={<NationalCurriculum />} />
         <Route path={"/co-curricular"} element={<CoCurricular />} />
+        <Route path={"/extra-curricular"} element={<ExtraCurricular />} />
+        <Route path={"/beyond-classroom"} element={<BeyondClassroom />} />
+        <Route path={"/physical-facilities"} element={<PhysicalFacilities />} />
+        <Route path={"/sports"} element={<Sports />} />
+        <Route path={"/boarding-facilities"} element={<BoardingFacilities />} />
+        <Route path={"/health-catering"} element={<HealthCare />} />
+        <Route path={"/gallery"} element={<Gallery />} />
+        <Route path={"/school-life"} element={<SchoolLife />} />
+        <Route path={"/contact-us"} element={<ContactUs/>} />
       </Routes>
       <Footer />
     </BrowserRouter>

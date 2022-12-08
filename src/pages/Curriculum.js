@@ -5,7 +5,9 @@ import {
   Route,
   Redirect,
 } from "react-router-dom";
+import { BeyondClassroom } from "./BeyondClassroom/BeyondClassroom";
 import { CoCurricular } from "./CoCurriculum/CoCurricular";
+import { ExtraCurricular } from "./ExtraCurricular/ExtraCurricular";
 
 import { NationalCurriculum } from "./NationalCurriculum/NationalCurriculum";
 
@@ -18,12 +20,9 @@ function Curriculum() {
          
           <Route path="/curriculum/national-curriculum" element={<NationalCurriculum />} exact />
           <Route path="/curriculum/co-curricular" element={<CoCurricular/>} exact />
-          {/* <Route path="/about/proprietor-message" element={<ProprietorMessage />} exact />
-          <Route path="/about/vision" element={<VMCV />} exact />
-          <Route path="/about/discipline" element={<Discipline />} exact />
-          <Route path="/about/school-song" element={<SchoolSong />} exact />
-          <Route path="/about/teaching-team" element={<TeachingTeam />} exact /> */}
-          
+          <Route path="/curriculum/extra-curricular" element={<ExtraCurricular />} exact />
+          <Route path="/curriculum/beyond-classroom" element={<BeyondClassroom />} exact />
+         
         </Routes>
       </Router>
     </>

@@ -3,11 +3,12 @@
 .navCont{
     position: relative;
     /* display: flex; */
-    width:25%;
+    width:100%;
     /* justify-content: space-between; */
     /* margin: 0 auto; */
     /* max-height: 5rem; */
-    padding-left:220px;
+    padding-left:120px;
+    padding-right:120px;
 
 }
 

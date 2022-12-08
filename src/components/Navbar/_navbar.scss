@@ -10,7 +10,7 @@
     position: fixed;
     z-index: 1;
     right: 0;
-    width: 100%;
+    width: 100% !important;
     top: 0;
     @media screen and (max-width:620px){
         display:none;
@@ -20,8 +20,8 @@
 
 .nav-list{
     display: flex;
-    max-width: 70%;
-    width: 70%;
+    max-width: 100%;
+    width: 100%;
     justify-content: space-between;
     list-style: none;
     color: #fff;
@@ -32,10 +32,10 @@
 
 .nav-list li{
     line-height: 25px;
-    text-align: center;
-    margin: 0;
+    // text-align: center;
+    margin: 0 0px 0 0px;
     font-size: 14px;
-   
+   width:100%;
 }
 
 /* .nav-list li a{
@@ -124,19 +124,7 @@
     }
 
 
-    .fa-times{
-        position: relative;
-        float: right;
-        width: 100%;
-    }
-
-    .fa-times, .fa-bars{
-        font-size: 40px;
-        color: #feed00;
-        transition: all 1.5ms linear;
-        transform: translate(-29px, 17px);
     
-    }
 .nav-links{
     display:none;
 }

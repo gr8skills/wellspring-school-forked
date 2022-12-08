@@ -1,4 +1,0 @@
-import './_prospectus.scss'
-
-
-
