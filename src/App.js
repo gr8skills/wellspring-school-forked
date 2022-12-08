@@ -25,6 +25,7 @@ import { HealthCare } from './pages/HealthCare/HealthCare';
 import { Gallery } from './pages/Gallery/Gallery';
 import { SchoolLife } from './pages/SchoolLife/SchoolLife';
 import { ContactUs } from './pages/ContactUs/ContactUs';
+import { Blog } from './pages/Blog/Blog';
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
         <Route path={"/gallery"} element={<Gallery />} />
         <Route path={"/school-life"} element={<SchoolLife />} />
         <Route path={"/contact-us"} element={<ContactUs/>} />
+        <Route path={"/blog"} element={<Blog/>} />
       </Routes>
       <Footer />
     </BrowserRouter>
