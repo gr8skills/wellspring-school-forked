@@ -129,12 +129,12 @@ export const Home = () => {
         </div>
       </div>
       <Prospectus />
-      <div className="col-md-12 flexy video-container">
-        <div className="col-md-5">
+      <div className="col-md-12 flexy video-container col-12">
+        <div className="col-md-5 col-12">
           <h1>Take a tour of our School today</h1>
           <AspectRatio ratio={1}>
             <iframe
-              width="1081"
+              // width="1081"
               height="608"
               src="https://www.youtube.com/embed/9laqxoXfz8A"
               title="Wellspring College Virtual Tour"
@@ -163,40 +163,45 @@ export const Home = () => {
       <div className="col-md-12 testimonial-title">
         <h1 style={{ textAlign: "center" }}> Our Testimonials</h1>{" "}
       </div>
-      <Carousel fade>
-        <Carousel.Item>
-          {" "}
-          <Testimonials
-            message="I personally believe that a good school should not only render
+      <div className="col-md-12 testimonial-carousel">
+        <Carousel fade>
+          <Carousel.Item>
+            {" "}
+            <Testimonials
+              message="I personally believe that a good school should not only render
               academic services but also produce well-rounded students that can
               be engrafted into the society. Wellspring College has endeavored
               to instill godly values into my son and also emphasized the
               importance of sport as a means of exercise and recreation while
               giving him quality education."
-            sliderImg={Principal}
-            title="Mrs. Olabode"
-            speaker="Parent"
-          />
-        </Carousel.Item>{" "}
-        <Carousel.Item>
-          {" "}
-          <Testimonials
-            message="I personally believe that a good school should not only render
+              sliderImg={Principal}
+              title="Mrs. Olabode"
+              speaker="Parent"
+            />
+          </Carousel.Item>{" "}
+          <Carousel.Item>
+            {" "}
+            <Testimonials
+              message="I personally believe that a good school should not only render
               academic services but also produce well-rounded students that can
               be engrafted into the society. Wellspring College has endeavored
               to instill godly values into my son and also emphasized the
               importance of sport as a means of exercise and recreation while
               giving him quality education."
-            sliderImg={Admin}
-            title="Mrs. Olabode"
-            speaker="Staff"
-          />
-        </Carousel.Item>
-      </Carousel>
+              sliderImg={Admin}
+              title="Mrs. Olabode"
+              speaker="Staff"
+            />
+          </Carousel.Item>
+        </Carousel>
+      </div>
       <div className="image-tab-container col-md-12 mt7">
         <ImageTab />
       </div>{" "}
       <div className="tab-container col-md-12">
+        <Heading as="h6" size="lg" className="tac mb4">
+          Why Wellsprings College
+        </Heading>
         <AppTab />
       </div>
       <div className="col-md-12 logo-display flexy">

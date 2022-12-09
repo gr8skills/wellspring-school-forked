@@ -12,13 +12,20 @@
   background-position: right;
   background-size: contain;
   color: #fff;
+@media  screen and (max-width: 620px){
+    margin-top: 50px;
 
+}
   .prospectus {
     background-color: white;
     color: black;
     padding: 50px;
     height: 350px;
     border-radius: 10px;
+    @media  screen and (max-width: 620px){
+    height: fit-content;
+
+}
     h4 {
       font-size: 22px;
       margin-bottom: 40px;

@@ -2,7 +2,7 @@ import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
 import { News } from "../News/News";
 import { WhyWellspring } from "../WhyWellspring/WhyWellspring";
 import Gift from "../../assets/gift2.png";
-import Jersy from "../../assets/jersy.png";
+import Jersy from "../../assets/jersy2.png";
 import Talk from "../../assets/talk.png";
 import Pose from "../../assets/pose.png";
 import Guiter from "../../assets/guiter.png";
@@ -10,8 +10,8 @@ import Cheque from "../../assets/cheque.png";
 import Compute from "../../assets/computer-room.png";
 import Sing from "../../assets/sing.png";
 import Lab from "../../assets/lab2.png";
-import Lib from "../../assets/lib.png";
-import Class from "../../assets/class.png";
+import Lib from "../../assets/read2.png";
+import Class from "../../assets/mask1.png";
 import Medal from "../../assets/medal.png";
 import Logo from "../../assets/logo2.png";
 
@@ -41,9 +41,9 @@ export const ImageTab = () => {
             <TabPanels>
               <TabPanel>
                 <div className="col-md-12 flexy">
-                  <div className="col-md-1 sect1">
+                  <div className="col-md-2 sect1">
                     <img
-                      className="col-md-12 imgCaro shift11 mt1"
+                      className="col-md-5 imgCaro shift11 mt1"
                       src={Jersy}
                       alt="Scholar"
                     />
@@ -58,9 +58,9 @@ export const ImageTab = () => {
                       alt="Scholar"
                     />
                   </div>
-                  <div className="col-md-10">&nbsp;</div>
+                  <div className="col-md-8">&nbsp;</div>
 
-                  <div className="col-md-1 sect2">
+                  <div className="col-md-2 sect2">
                     <img
                       className="col-md-12 imgCaro shift22 mt1"
                       src={Pose}
@@ -81,10 +81,10 @@ export const ImageTab = () => {
               </TabPanel>
               <TabPanel>
                 <div className="col-md-12 flexy content2">
-                  <div className="col-md-1 sect1">
+                  <div className="col-md-2 sect1">
                     <img
                       className="col-md-12 imgCaro shift33 mt1"
-                      src={Medal}
+                      src={Guiter}
                       alt="Scholar"
                     />
                     <img
@@ -94,26 +94,26 @@ export const ImageTab = () => {
                     />
                     <img
                       className="col-md-12 imgCaro shift33 mt1"
-                      src={Lib}
+                      src={Jersy}
                       alt="Scholar"
                     />
                   </div>
-                  <div className="col-md-10">&nbsp;</div>
+                  <div className="col-md-8">&nbsp;</div>
 
-                  <div className="col-md-1 sect2">
+                  <div className="col-md-2 sect2">
                     <img
                       className="col-md-12 imgCaro shift4 mt1"
-                      src={Compute}
+                      src={Talk}
                       alt="Scholar"
                     />
                     <img
                       className="col-md-12 imgCaro shift44 mt1"
-                      src={Sing}
+                      src={Gift}
                       alt="Scholar"
                     />
                     <img
                       className="col-md-12 imgCaro shift4 mt1"
-                      src={Lab}
+                      src={Cheque}
                       alt="Scholar"
                     />
                   </div>

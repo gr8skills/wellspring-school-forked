@@ -11,4 +11,9 @@
     background:#fff;
     width:100%;
     border-right:solid 1px $themecolor2;
+    @media screen and (max-width:620px){
+        overflow: hidden scroll;
+            font-size:8px !important;
+
+    }
 }

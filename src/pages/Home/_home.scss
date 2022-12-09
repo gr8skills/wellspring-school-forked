@@ -31,6 +31,10 @@
     // overflow: hidden;
     border-radius: 20px !important;
     height:1120px;
+    @media screen and (max-width:620px){
+          height:fit-content;
+
+    }
   }
 
   .imgCaro {
@@ -63,6 +67,10 @@
     border: 1px solid #fff !important;
     transition: all 0.5s linear;
     // left: 5% !important;
+    @media screen and (max-width: 620px){
+    display:none;
+
+    }
   }
 
   .carousel-indicators button:focus {
@@ -148,7 +156,7 @@
   height: fit-content;
   background-color: $themecolor2;
   width: 100%;
-  padding: 250px 0;
+  padding: 170px 0;
   background-image: url("../../assets/dotted.png");
   background-repeat: no-repeat;
   background-position: right;
@@ -166,6 +174,11 @@
     margin-top: 90px;
 
     margin-left: 60px;
+    @media screen and (max-width:620px){
+          margin-left: 0px;
+
+    }
+    
     p {
       line-height: 35px;
     }
@@ -181,15 +194,30 @@
   margin-top: 170px;
   text-align: center;
   font-size: 30px;
+  @media screen and (max-width: 620px) {
+  margin-top: 100px;
+
+  }
 }
 
 .video-container {
   padding-left: 130px;
+  @media screen and (max-width:620px){
+  padding-left: 0px;
+
+  }
   margin-top: 80px;
   h1 {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 30px;
+     @media screen and (max-width:620px){
+    font-size: 22px;
+    text-align:center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+  }
   }
 }
 

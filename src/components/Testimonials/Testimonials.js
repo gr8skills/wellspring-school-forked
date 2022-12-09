@@ -7,17 +7,20 @@ export const Testimonials=(props)=>{
         <div className="col-md-12 flexy testimonial">
           <div className="col-md-1">&nbsp;</div>
 
-          <div className="col-md-4">
+          <div className="col-md-4 testimonial-content" >
             <img
-              className="col-md-12 imgCaro"
+              className="col-md-12 imgCaro br"
               src={props.sliderImg}
               alt="Scholar"
               width="100%"
             />
           </div>
           <div className="col-md-5 testimonial-massage">
-            <h1><strong>"</strong>{props.title}</h1>
-            <small>
+            <h1>
+              <strong style={{ marginRight: "5px" }}>"</strong>
+              {props.title}
+            </h1>
+            <small style={{ marginLeft: "40px" }}>
               <em>{props.speaker}</em>
             </small>
             <p>{props.message}</p>
