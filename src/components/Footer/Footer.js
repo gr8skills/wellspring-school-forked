@@ -99,7 +99,7 @@ export const Footer = () => {
               </a>
             </li>
           </ol>
-          <div className="col-md-12 educare flexy">
+          <div className="col-md-12 educare flexy flexyM">
             <p>Powered by</p>
             <a href="#">
               {" "}

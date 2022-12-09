@@ -163,6 +163,9 @@
   background-size: contain;
   color: #fff;
   margin-top:-100px;
+  @media screen and (max-width:620px){
+    padding-bottom:70px;
+  }
 }
 
 .welcome-message {
@@ -231,8 +234,19 @@
   padding-top: 250px;
   width: 100%;
   margin-top: -40px !important;
+  @media screen and (max-width:620px){
+      height: fit-content !important;
+  padding-top: 0px;
+  padding-bottom: 50px;
+
+  }
   img {
     width: 100%;
+    @media screen and (max-width:620px){
+    width: 50%;
+    margin-left:45%;
+
+  }
   }
 }
 
@@ -273,7 +287,7 @@
  height:fit-content;
   background-image: url("../../assets/sport.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   padding: 80px 50px;
   color:white;
   border-radius:40px;
@@ -281,6 +295,12 @@
   margin-left:60px;
   object-fit: contain;
   text-align:center;
+  @media screen and (max-width:620px){
+                  padding:12px 0px;
+               margin:60px 0;
+  background-size: cover;
+
+        }
       .news-channel{
         background-color:white;
         color:black;
@@ -288,20 +308,44 @@
         height:fit-content;
         border-radius: 15px;
         margin-top:40px;
+        @media screen and (max-width:620px){
+                  padding:2px 0px;
+                  margin-top:25px;
+                  margin-left:5px;
+                  margin-right:5px;
+                  // margin-bottom:5px;
+
+        }
+      }
+      .second-img{
+        margin-right:15px;
+        @media screen and (max-width:620px){
+               margin: 0;
+
+        }
       }
 }
 
 .handles{
     margin-top: 20px;
     text-align:center !important;
+    .fb{ 
+      @media screen and (max-width:620px){
+                  margin-left:40px;
+
+        }}
     img{
         width:90px !important;
+       
     }
     .linked{
         background-color:grey;
          width:100px !important;
         border-radius: 50%;
         padding:20px;
+        @media screen and (max-width:620px){
+                  margin-left:40px;
+        }
     }
 }
 
@@ -312,4 +356,20 @@
   background-size: contain;
   padding: 80px 50px;
   color:white;
+  @media screen and (max-width:620px){
+  background-color:rgb(248, 243, 243);
+
+    height:fit-content !important;
+    margin-bottom:50px;
+
+  }
+}
+.calendar-button{
+  left: 45%;
+ @media screen and (max-width:620px){
+     left: 25%;
+
+    // margin-left:25%;
+
+  }
 }
