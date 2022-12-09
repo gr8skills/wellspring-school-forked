@@ -3,7 +3,7 @@
 
 .home-page-trans {
   img {
-    margin-top: 147px;
+    margin-top: 197px;
     height: 100% !important;
     @media screen and (max-width: 620px) {
       margin-top: 0;
@@ -12,7 +12,7 @@
   .slider-label {
     margin-top: 300px;
     h1 {
-      font-size: 70px;
+      font-size: 60px;
     }
     p {
       font-size: 24px;
@@ -23,27 +23,27 @@
   }
   .carousel {
     position: relative;
-    z-index: 0;
+    z-index: 0 !important;
   }
   .carousel-inner {
     position: relative;
     width: 100%;
-    overflow: hidden;
+    // overflow: hidden;
     border-radius: 20px !important;
+    height:1120px;
   }
 
   .imgCaro {
     width: 100%;
-    height: 100%;
     border-radius:10px;
     object-fit: cover;
   }
 
   .carousel-indicators > button.active {
     opacity: 1;
-    max-width: 9px !important;
+    max-width: 12px !important;
     max-height: 6px !important;
-    min-width: 9px !important;
+    min-width: 12px !important;
     min-height: 6px !important;
     background-color: #dbaf4e !important;
     border-color: #fff !important;
@@ -53,16 +53,16 @@
   }
 
   .carousel-indicators button {
-    max-width: 86px !important;
-    max-height: 86px !important;
-    min-width: 86px !important;
-    min-height: 86px !important;
-    margin: 583px 5px !important;
+    max-width: 6px !important;
+    max-height: 6px !important;
+    min-width: 6px !important;
+    min-height: 6px !important;
+    margin-top: 700px !important;
     border-radius: 7px !important;
     background-color: #dbaf4e !important;
     border: 1px solid #fff !important;
     transition: all 0.5s linear;
-    left: 5% !important;
+    // left: 5% !important;
   }
 
   .carousel-indicators button:focus {
@@ -72,16 +72,13 @@
   .carousel-indicators {
     position: absolute;
     right: 0;
-    bottom: 10px;
-    left: 0;
+    margin-left: -85% !important;
     z-index: 15;
     display: flex;
     flex-direction: row;
     height: 100%;
-    // justify-content: center;
     padding-left: 0;
     margin-right: 0 !important;
-    margin-left: 1vw;
     list-style: none;
     outline: none;
     border: none;
@@ -91,48 +88,54 @@
     left: 9vw;
     transform: rotate(180deg);
     position: absolute;
-    margin-top: 40% !important;
+    margin-top: 39% !important;
     justify-content: right !important;
     height: 10px;
     width: 18px !important;
     font-size: 50px;
+        z-index: 8000000000000000000000000000;
+
   }
   .carousel-control-prev {
     left: 1.5vw;
     transform: rotate(180deg) !important;
     position: absolute;
-    margin-top: 40% !important;
+    margin-top: 39% !important;
     justify-content: right !important;
     height: 10px;
     font-size: 50px;
     width: 20px !important;
+        z-index: 8000000000000000000000000;
+
   }
   .carousel-control-prev::after {
     content: url("../../assets/arrow-right.png");
     position: relative;
 
-    z-index: 1000000000000000000000000;
-    margin-right: 70px;
+    margin-right: 30px;
+    margin-bottom: 170px;
     width: 20px;
     height: 80px;
   }
   .carousel-control-next::after {
     content: url("../../assets/arrow-left.png");
     font-size: 54px;
-    z-index: 1000000000000000000000000000;
     position: relative;
-    right: 0 !important;
+    right: 60px !important;
     width: 20px;
+        margin-bottom: 170px;
+
     height: 80px;
   }
 }
 .welcome-message {
   img {
     width: 100%;
+    margin-top:60px !important;
     // height:50px;
   }
   .message {
-    margin-top: 200px;
+    // margin-top: 200px;
     h1 {
       font-weight: bold;
       margin-bottom: 30px;
@@ -160,7 +163,7 @@
     font-weight: bold;
   }
   .inner-massage {
-    margin-top: 230px;
+    margin-top: 90px;
 
     margin-left: 60px;
     p {

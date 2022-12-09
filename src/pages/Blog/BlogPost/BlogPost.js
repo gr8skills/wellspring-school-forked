@@ -18,11 +18,15 @@ export const BlogPost= (props) => {
           <div className="col-md-6">
             {" "}
             <small>{props.blogDate}</small>
-            <Heading size="lg" mb="20px" mt="10px" className="tc">
-             {props.blogHeader}
-            </Heading>
+            <Link to={props.blogUrl}>
+              <Heading size="lg" mb="20px" mt="10px" className="tc">
+                {props.blogHeader}
+              </Heading>
+            </Link>
             <p className="mb2">{props.blog}</p>
-            <Link to={props.blogUrl} className="tc">Read More</Link>
+            <Link to={props.blogUrl} className="tc">
+              {props.linkContent}
+            </Link>
           </div>
         </div>
       </div>

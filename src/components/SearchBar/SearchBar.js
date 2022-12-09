@@ -1,4 +1,5 @@
 import './_search-bar.scss'
+import { PhoneIcon, AddIcon, Search2Icon } from "@chakra-ui/icons";
 
 export const SearchBar = () => (
   <form action="/" method="get">
@@ -8,7 +9,7 @@ export const SearchBar = () => (
     <input
       type="text"
       id="header-search"
-      placeholder="Search"
+      placeholder="Search "
       name="s"
     />
   </form>

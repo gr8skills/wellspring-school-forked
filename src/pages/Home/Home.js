@@ -42,10 +42,11 @@ export const Home = () => {
               <div className="col-md-12 flexy">
                 <div className="col-md-4 slider-label">
                   <h1>Beyond the Classroom</h1>
-                  <p>
+                  <p className="mb5">
                     Wellspring College Students Visit Foremost Award-Winning
                     Fashion Designer Mai Atafo
                   </p>
+                  <AppButton text="Apply Here" />
                 </div>
                 <div className="col-md-1">&nbsp;</div>
                 <div className="col-md-7 slider-container">
@@ -62,10 +63,11 @@ export const Home = () => {
               <div className="col-md-12 flexy">
                 <div className="col-md-4 slider-label">
                   <h1>WELLSPRING OUTINGS</h1>
-                  <p>
+                  <p className="mb5">
                     Wellspring College Students Visit Foremost Award-Winning
                     Designer Mai Atafo
                   </p>
+                  <AppButton text="Apply Here" />
                 </div>
                 <div className="col-md-1">&nbsp;</div>
 
@@ -82,10 +84,11 @@ export const Home = () => {
               <div className="col-md-12 flexy">
                 <div className="col-md-4 slider-label">
                   <h1>WELLSPRING OUTINGS</h1>
-                  <p>
+                  <p className="mb5">
                     Wellspring College Students Visit Foremost Award-Winning
                     Designer Mai Atafo
                   </p>
+                  <AppButton text="Apply Here" />
                 </div>
                 <div className="col-md-1">&nbsp;</div>
 
@@ -98,34 +101,13 @@ export const Home = () => {
                 </div>
               </div>
             </Carousel.Item>
-            {/* <Carousel.Item>
-              <div className="col-md-12 flexy">
-                <div className="col-md-4 slider-label">
-                  <h1>WELLSPRING OUTINGS</h1>
-                  <p>
-                    Wellspring College Students Visit Foremost Award-Winning
-                    Designer Mai Atafo
-                  </p>
-                </div>
-                <div className="col-md-1">&nbsp;</div>
-
-                <div className="col-md-7 slider-container">
-                  <img
-                    className="col-md-12 imgCaro"
-                    src={Slider4}
-                    alt="Scholar"
-                  />
-                </div>
-              </div>
-            </Carousel.Item> */}
           </Carousel>
-          <AppButton text="Apply Here" />
           <div className="welcome-message-header">
             <h1>Welcome to Wellspring College</h1>
           </div>
           <div className="col-md-12 flexy welcome-message">
             <div className="col-md-5">
-              <img className="col-md-12 imgCaro" src={Admin} alt="Scholar" />
+              <img className="col-md-12 br" src={Admin} alt="Scholar" />
             </div>
             <div className="col-md-6 inner-massage">
               <h1>Message from the Principal’s Desk</h1>
@@ -139,7 +121,9 @@ export const Home = () => {
                 with the goal of giving succor to the Nigerian youth by
                 providing an all-round education suitable for future leaders.
               </p>
-              <Link style={{ color: "#359bd7" }}>Read More</Link>
+              <Link style={{ color: "#359bd7" }} to={"/proprietor-message"}>
+                Read More
+              </Link>
             </div>
           </div>
         </div>
@@ -147,7 +131,7 @@ export const Home = () => {
       <Prospectus />
       <div className="col-md-12 flexy video-container">
         <div className="col-md-5">
-          <h1>Take a tour our School today</h1>
+          <h1>Take a tour of our School today</h1>
           <AspectRatio ratio={1}>
             <iframe
               width="1081"
@@ -212,10 +196,6 @@ export const Home = () => {
       <div className="image-tab-container col-md-12 mt7">
         <ImageTab />
       </div>{" "}
-
-
-
-
       <div className="tab-container col-md-12">
         <AppTab />
       </div>

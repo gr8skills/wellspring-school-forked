@@ -26,10 +26,14 @@ import { Gallery } from './pages/Gallery/Gallery';
 import { SchoolLife } from './pages/SchoolLife/SchoolLife';
 import { ContactUs } from './pages/ContactUs/ContactUs';
 import { Blog } from './pages/Blog/Blog';
+import { MainBlogPost } from './pages/Blog/MainBlogPost copy/MainBlogPost';
+import { TopNav } from './components/Navbar/TopNav';
 
 function App() {
   return (
     <BrowserRouter>
+      <TopNav />
+
       <NavBar />
 
       <Routes>
@@ -51,8 +55,9 @@ function App() {
         <Route path={"/health-catering"} element={<HealthCare />} />
         <Route path={"/gallery"} element={<Gallery />} />
         <Route path={"/school-life"} element={<SchoolLife />} />
-        <Route path={"/contact-us"} element={<ContactUs/>} />
-        <Route path={"/blog"} element={<Blog/>} />
+        <Route path={"/contact-us"} element={<ContactUs />} />
+        <Route path={"/blog"} element={<Blog />} />
+        <Route path={"/main-blog-post"} element={<MainBlogPost />} />
       </Routes>
       <Footer />
     </BrowserRouter>

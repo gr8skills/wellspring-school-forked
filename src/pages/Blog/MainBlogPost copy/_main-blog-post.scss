@@ -1,0 +1,13 @@
+@import "../../../shared-styles";
+@import "../../../variables";
+
+.main-blog-post{
+    margin-bottom:90px;
+    p{font-size: 15px;line-height:30px;}
+    small{color:grey}
+    .other-posts{
+        border:solid 1px rgb(230, 227, 227);
+        box-shadow: 0 0 2px 2px rgb(250, 249, 249);
+    }
+
+}
