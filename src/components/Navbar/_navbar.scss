@@ -5,7 +5,7 @@
 
 
 .navContainer{
-    background:$themecolor;
+    background:$themecolor !important;
     min-height: 3rem;
     position: fixed;
     z-index: 10000000000000;
@@ -13,9 +13,10 @@
     width: 100% !important;
     top: 0;
     margin-top:5rem;
-    @media screen and (max-width:620px){
-        display:none;
+    @media screen and (max-width: 620px){
+    margin-top:0rem;
     }
+    
 }
 
 
@@ -49,10 +50,12 @@
     justify-content: center;
     display: flex;
 }
-
+@media screen and (min-width:620px){
 .menu-icon{
-    display: none;
+    display: none !important;
 }
+}
+
 
 
 
@@ -97,13 +100,16 @@
         height: 42rem;
         width: 100%;
         max-width: 100% !important;
-        top: 48px;
+        top: 148px;
         transform: translateY(4%);
-        /* z-index: 999; */
         opacity: 1;
-        right: -100%;
+        right: 100%;
         transition: all .5s linear;
-    background-color: #4CA149;
+    background-color: $themecolor;
+    @media screen and (max-width:620px){
+                top: 50px;
+
+    }
 
     }
 .mainMenu li a{
@@ -126,18 +132,29 @@
 
 
     
-.nav-links{
-    display:none;
+// .nav-links{
+//     display:none;
+// }
 }
-}
 
 
 
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 620px) {
     .wrapper{
         display:none;
     }
+    #mobile-logo{
+        display:none;
+    }
+}
+
+
+@media screen and (max-width: 620px) {
+    .wrapper{
+        display:block !important;
+    }
+    
 }
 
 
@@ -147,31 +164,33 @@
 
 
 
-.ph:hover{
-    background-color:rgb(255, 165, 0) !important;
-    opacity:1 !important
-}
+/*for sidenav*/
+
 .wrapper{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+    background-color:$themecolor;
+    margin-top:50px !important;
 }
 .mainMenu{
     width: 250px;
     display: block;
     border-radius: 10px;
     overflow: hidden;
+    color:#fff;
+        text-align: center !important;
+
 }
 .mainMenu a{
   font-size:20px !important;
   font-weight:bold !important;
       font-family: monserat;
-      /* margin-bottom:-20px; */
+    color:#fff; 
 }
 .item{
-    border-top: 1px solid orange;
+    border-top: 1px solid rgb(255,255,255);
     overflow: hidden;
 margin: top 0;
 line-height: 20px !important;
@@ -204,15 +223,14 @@ line-height: 20px !important;
     font-size: 13px;
 }
 .subMenu{
-    /* background:#A3DA8D !important; */
       overflow: hidden;
-        /* background:rgba(78,161,73, 0.1)!important; */
-        background:rgba(178,161,173, 0.1)!important;
+    background-color:$themecolor2 !important;
 
     transition: max-height 0.7s;
 max-height: 0;
 z-index:300000000 !important;
 position:relative !important;
+text-align: center !important;
 
 }
 .subMenu a{
@@ -223,7 +241,8 @@ position:relative !important;
     border-bottom: 1px solid #394c7f;
     position: relative;
     margin-top:5px !important;
-
+    font-weight:bold !important;
+text-align: center !important;
 
 }
 .subMenu a:before{
@@ -265,7 +284,7 @@ position:relative !important;
     border-bottom: 24px solid transparent;
 }
 .subMenu a:hover{
-   background-color:orange;
+   background-color:rgb(255,255,255);
     transition: all 0.3s;
     border-bottom: 2px solid #394c7f;
 }
@@ -278,34 +297,46 @@ position:relative !important;
 
 }
 
-.login{
-  background-color:#ED2f59;
-  padding:5px 14px 5px 14px !important;
-  border-radius:5px;
-margin-right:55px;
-margin-left:30px;
-font-family: 'Poppins', sans-serif;
 
+
+
+    .menu-icon{
+        display: block;
+    }
+
+
+    .fa-times{
+        position: relative;
+        // float: right !important;
+        width: 10%;
+    }
+
+    .fa-times, .fa-bars{
+        font-size: 30px;
+        color: #6540a1;
+        transition: all 1.5ms linear;
+        transform: translate(-29px, 17px);
+    z-index: 10;
+    }
+
+.portal{
+  background-color:white;
+  width:120px;
+  margin-left:50px;
+ padding:7px !important;
+ color:rgb(31,71,17)!important;
+  margin-top:20px !important;
+   font-size:5px !important;
+      text-decoration: none;
+  border-radius:35px;
   }
 
 
-
-.portal{
-  background-color:rgb(221, 156, 35);
-  /* padding:7px; */
-  width:120px;
-  margin-left:50px;
-  border-radius:5px;
- padding:7px !important;
- font-size:5px !important;
- color:white !important;
-    /* padding-bottom:6px !important; */
-  margin-top:20px !important;
-   font-size:11px !important;
-      text-decoration: none;
-  
+  .port button {
+      background-color:white !important
   }
 
   .portal a{
      
   }
+

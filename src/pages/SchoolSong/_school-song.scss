@@ -4,5 +4,10 @@
 
 .school-song{
  p{margin-bottom:140px;
-line-height: 55px;}
+line-height: 55px;
+@media  screen and (max-width:620px) {
+    margin-bottom:0px !important;
+}
+}
+
 }

@@ -27,7 +27,7 @@ export const Discipline= () => {
       <div className="col-md-12 flexy discipline">
         <div className="col-md-1">&nbsp;</div>
         <div className="page-body col-md-8 ">
-          <Heading size="lg" mb="30px" mt="30px">
+          <Heading size="lg" mb="30px" mt="30px" className="m-margin">
             Discipline
           </Heading>
           <p>

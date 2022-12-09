@@ -32,13 +32,13 @@ export const ProprietorMessage = () => {
         <div className="page-body col-md-8 ">
           <div className="page-body col-md-12 flexy">
             <div className="col-md-5 ">
-              <Heading size="lg" mt="40px" mb="40px">
+              <Heading size="lg" mt="40px" mb="40px" className="m-margin">
                 Welcome to Wellsping College
               </Heading>
               <img className="col-md-12 " src={Admin} alt="Scholar" />
             </div>
             <div className="col-md-6 col-12 message-paragraph">
-              <Heading size="md" mt="20px" mb="20px">
+              <Heading size="md" mt="20px" mb="20px" className="m-margin">
                 Message from the Principal’s Desk
               </Heading>
               <p>
@@ -50,15 +50,16 @@ export const ProprietorMessage = () => {
                 with the goal of giving succor to the Nigerian youth by
                 providing an all-round education suitable for future leaders.
               </p>
+              <p>
+                {" "}
+                At Wellspring College, we emphasize academic and moral
+                excellence. We are committed to turning out youths who are not
+                only academically sound but also of unquestionable character.
+              </p>
             </div>
           </div>
-          <p>
-            {" "}
-            At Wellspring College, we emphasize academic and moral excellence.
-            We are committed to turning out youths who are not only academically
-            sound but also of unquestionable character.
-          </p>
-          <br />
+
+          {/* <br /> */}
 
           <p>
             Wellspring College is located in an enabling serene environment

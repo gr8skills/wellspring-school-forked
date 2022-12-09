@@ -27,7 +27,7 @@ export const TeachingTeam= () => {
       <div className="col-md-12 flexy school-song">
         <div className="col-md-1">&nbsp;</div>
         <div className="page-body col-md-7 ">
-          <Heading size="lg" mb="50px" mt="30px">
+          <Heading size="lg" mb="50px" mt="30px" className="m-margin">
             Teaching Team
           </Heading>
           <p style={{ lineHeight: "55px" }}>

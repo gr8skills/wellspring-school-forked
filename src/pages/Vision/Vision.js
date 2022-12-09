@@ -13,14 +13,14 @@ export const VMCV= () => {
       <div className="col-md-12 holder">
         <img className="col-md-12 imgCaro" src={Banner} alt="Scholar" />
         <div className="overlay">
-          <Heading size="3xl">Vision, Mission & Core Values</Heading>
+          <Heading size="2xl">Vision, Mission & Core Values</Heading>
         </div>
       </div>
       <div className="flexy breadcrumb">
         <div className="col-md-1">&nbsp;</div>
-        <a href="#">
+        <Link to={'/'}>
           <img className="col-md-12 home-icon" src={Home} alt="Scholar" />
-        </a>
+        </Link>
         <p>About Us</p>
         <p>Vision, Mission & Core Values</p>
       </div>
@@ -28,7 +28,7 @@ export const VMCV= () => {
         <div className="col-md-1">&nbsp;</div>
         <div className="page-body col-md-8 ">
           <div className="col-md-3">
-            <Heading size="lg" mb="30px" mt="30px">
+            <Heading size="lg" mb="30px" mt="30px" className="m-margin">
               Vision
             </Heading>
             <p>To provide functional education based on sound morals</p>

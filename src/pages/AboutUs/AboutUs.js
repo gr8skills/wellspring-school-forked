@@ -20,15 +20,15 @@ export const AboutUs = () => {
       </div>
       <div className="flexy breadcrumb">
         <div className="col-md-1">&nbsp;</div>
-        <a href="#">
+        <Link to={"/"}>
           <img className="col-md-12 home-icon" src={Home} alt="Scholar" />
-        </a>
+        </Link>
         <p>About Us</p>
       </div>
       <div className="col-md-12 flexy">
         <div className="col-md-1">&nbsp;</div>
         <div className="page-body col-md-8">
-          <Heading size="xl" mt="40px" mb="40px">
+          <Heading size="xl" mt="40px" mb="40px" className="m-margin">
             About Us
           </Heading>
           <p>
@@ -68,16 +68,16 @@ export const AboutUs = () => {
               <Link to={"/proprietor-message"}>Principal’s Message</Link>
             </li>
             <li>
-              <Link>Vision , Mission & Core Values</Link>
+              <Link to={"/vision"}>Vision , Mission & Core Values</Link>
             </li>
             <li>
-              <Link>Discipline</Link>
+              <Link to={"/discipline"}>Discipline</Link>
             </li>{" "}
             <li>
-              <Link>School Song</Link>
+              <Link to={"/school-song"}>School Song</Link>
             </li>{" "}
             <li>
-              <Link>Teaching Team</Link>
+              <Link to={"/teaching-team"}>Teaching Team</Link>
             </li>
           </ul>
         </div>
@@ -86,25 +86,25 @@ export const AboutUs = () => {
         <div className="col-md-2">&nbsp;</div>
         <div className="col-md-8 flexy">
           <div className="col-md-4 holder2">
-            <a href="#">
+            <Link to={"/proprietor-message"}>
               {" "}
               <img className="col-md-10 col-12" src={Message} alt="Scholar" />
               <div className="overlay2">
                 <h5>Principal's Message</h5>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="col-md-4 holder2">
-            <a href="#">
+            <Link to={"/vision"}>
               {" "}
               <img className="col-md-10 col-12" src={Vision} alt="Scholar" />
               <div className="overlay2">
                 <h5>Vision , Mission & Core Values</h5>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="col-md-4 holder2">
-            <a href="#">
+            <Link to={"/discipline"}>
               {" "}
               <img
                 className="col-md-10 col-12"
@@ -114,30 +114,30 @@ export const AboutUs = () => {
               <div className="overlay2">
                 <h5>Discipline</h5>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
-      <div className="col-md-12 flexy link-imgs" style={{ marginTop: "40px" }}>
+      <div className="col-md-12 flexy link-imgs mb3" style={{ marginTop: "40px" }}>
         <div className="col-md-3">&nbsp;</div>
         <div className="col-md-6 flexy">
           <div className="col-md-6 holder2 holder-up">
-            <a href="#">
+            <Link to={"/school-song"}>
               {" "}
               <img className="col-md-9 col-12" src={Song} alt="Scholar" />
               <div className="overlay2">
                 <h5>School Song</h5>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="col-md-6 holder2 ">
-            <a href="#">
+            <Link to={"/teaching-team"}>
               {" "}
               <img className="col-md-9 col-12" src={Team} alt="Scholar" />
               <div className="overlay2">
                 <h5>Teaching Staff</h5>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
