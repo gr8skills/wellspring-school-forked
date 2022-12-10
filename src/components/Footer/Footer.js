@@ -21,24 +21,24 @@ export const Footer = () => {
           <div className="col-md-12 flexy flexyM">
             <ul className="list-unstyled">
               <li>
-                <a href="#">About Us</a>
+                <a href="/about-us">About Us</a>
               </li>{" "}
               <li>
-                <a href="#">Curriculum</a>
+                <a href="/curriculum">Curriculum</a>
               </li>{" "}
               <li>
-                <a href="#">Facilities</a>
+                <a href="/physical-facilities">Facilities</a>
               </li>
             </ul>
             <ul className="list-unstyled">
               <li>
-                <a href="#">School Life</a>
+                <a href="/school-life">School Life</a>
               </li>{" "}
               <li>
-                <a href="#">News</a>
+                <a href="/blog">News</a>
               </li>{" "}
               <li>
-                <a href="#">Media Gallery</a>
+                <a href="/media-gallery">Media Gallery</a>
               </li>
             </ul>
           </div>
@@ -48,7 +48,10 @@ export const Footer = () => {
         <div className=" col-md-2 ">&nbsp;</div>
         <div className=" col-md-2 footer-logo">
           {" "}
-          <img className="col-md-12 " src={Logo} alt="Scholar" />
+          <a href="/">
+            {" "}
+            <img className="col-md-12 " src={Logo} alt="Scholar" />
+          </a>
         </div>
         <div className=" col-md-1">&nbsp;</div>
         <div className=" col-md-3 footer-contacts">
@@ -101,7 +104,10 @@ export const Footer = () => {
           </ol>
           <div className="col-md-12 educare flexy flexyM">
             <p>Powered by</p>
-            <a href="#">
+            <a
+              href="https://wellspring.educare.school/admission-form"
+              target="_blank"
+            >
               {" "}
               <img className="col-md-12 " src={Educare} alt="Scholar" />
             </a>

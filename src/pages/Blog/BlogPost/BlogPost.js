@@ -12,7 +12,7 @@ export const BlogPost= (props) => {
       <div className="col-md-12 flexy blog-post">
         <div className="col-md-1">&nbsp;</div>
         <div className="col-md-10 flexy">
-          <div className="col-md-5">
+          <div className="col-md-5 img-hover-zoom img-hover-zoom--xyz">
             <img className="col-md-11 col-12" src={Pic} alt="Scholar" />
           </div>
           <div className="col-md-6">
