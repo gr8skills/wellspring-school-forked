@@ -73,7 +73,7 @@ function NavBar() {
           </div>
           <ul className={click ? "nav-list active" : "nav-list"}>
             <li
-              className="nav-item "
+              className="nav-item leave"
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
             >
@@ -82,7 +82,7 @@ function NavBar() {
               </Link>
             </li>
             <li
-              className="nav-item "
+              className="nav-item leave"
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
             >
@@ -97,7 +97,7 @@ function NavBar() {
             </li>
 
             <li
-              className="nav-item "
+              className="nav-item leave"
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
             >
@@ -111,7 +111,7 @@ function NavBar() {
             </li>
 
             <li
-              className="nav-item "
+              className="nav-item leave"
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
             >
@@ -125,7 +125,7 @@ function NavBar() {
               {activeMenu.menu3 && <Dropdown menuArray={navMenus.curriculum} />}
             </li>
             <li
-              className="nav-item "
+              className="nav-item leave"
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
             >
@@ -139,7 +139,7 @@ function NavBar() {
               {activeMenu.menu4 && <Dropdown menuArray={navMenus.facilities} />}
             </li>
             <li
-              className="nav-item "
+              className="nav-item leave"
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
             >
@@ -152,7 +152,7 @@ function NavBar() {
               </Link>
             </li>
             <li
-              className="nav-item "
+              className="nav-item leave"
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
             >
@@ -165,7 +165,7 @@ function NavBar() {
               </Link>
             </li>
             <li
-              className="nav-item "
+              className="nav-item leave"
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
             >
@@ -178,7 +178,7 @@ function NavBar() {
               </Link>
             </li>
             <li
-              className="nav-item "
+              className="nav-item leave"
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
             >

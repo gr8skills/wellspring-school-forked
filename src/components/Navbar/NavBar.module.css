@@ -36,12 +36,12 @@
 @media screen and (max-width: 620px) {
     .navCont{
         position: relative;
-        /* display: flex; */
+        display: flex;
         width: 100%;
-        /* justify-content: space-between; */
+        justify-content: space-between;
         margin: 0 auto;
         max-height: 5rem;
-    
+    /* float:right; */
     }
 
 .navCont{
@@ -53,7 +53,7 @@
     .imgContent{
         position: absolute;
         z-index: 1;
-        height: 10vw;
+        height: 16vw;
     
     }
 
