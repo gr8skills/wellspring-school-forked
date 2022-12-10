@@ -38,7 +38,7 @@ export const Admission = () => {
       <div className="col-md-12 flexy admission">
         <div className="col-md-3">&nbsp;</div>
         <div className="page-body col-md-6 ">
-          <Heading size="lg" mb="50px" mt="30px">
+          <Heading size="lg" mb="50px" mt="30px" className="m-margin">
             Admission
           </Heading>
           <p style={{ lineHeight: "35px" }}>
@@ -53,7 +53,7 @@ export const Admission = () => {
         <div className="col-md-1">&nbsp;</div>
         <div className="col-md-10 flexy">
           <div className="page-body col-md-5 ">
-            <Heading size="lg" mb="50px" mt="30px">
+            <Heading size="lg" mb="50px" mt="30px" className="m-margin">
               Academic Requirements
             </Heading>
             <p>
@@ -99,7 +99,7 @@ export const Admission = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 mt2">
                 <div className="col-md-8">
                   <h1 className="tc2">
                     <span>2</span>
@@ -115,7 +115,7 @@ export const Admission = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 mt2">
                 <div className="col-md-8">
                   <h1 className="tc2">
                     <span>3</span>
@@ -146,7 +146,7 @@ export const Admission = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 mt2">
               <div className="col-md-8">
                 <h1 className="tc2">
                   <span>5</span>
@@ -164,7 +164,7 @@ export const Admission = () => {
       <div className="col-md-12 flexy about">
         <div className="col-md-3">&nbsp;</div>
         <div className="col-md-6">
-          <Heading size="xl" mb="70px" mt="90px">
+          <Heading size="xl" mb="70px" mt="90px" className="m-margin">
             About Us
           </Heading>
           <p>
@@ -199,8 +199,8 @@ export const Admission = () => {
           <small>across Nigeria</small>
         </div>
         <div className="col-md-3">&nbsp;</div>
-        <div className="col-md-5">
-          <div className="col-md-12 flexy flexyM mt3 mb3">
+        <div className="col-md-5 col-12">
+          <div className="col-md-12 flexy mt3 mb3 stats">
             <img className="col-md-12 mr2" src={Users} alt="Scholar" />
             <div>
               <h1 className="tc2">Over 650</h1>
@@ -208,7 +208,7 @@ export const Admission = () => {
             </div>
           </div>
           <hr />
-          <div className="col-md-12 flexy flexyM mt3 mb3">
+          <div className="col-md-12 flexy mt3 mb3 stats">
             <img className="col-md-12 mr2" src={Cup} alt="Scholar" />
             <div>
               <h1 className="tc2">Over 650</h1>
@@ -216,7 +216,7 @@ export const Admission = () => {
             </div>
           </div>{" "}
           <hr />
-          <div className="col-md-12 flexy flexyM mt3 mb3">
+          <div className="col-md-12 flexy mt3 mb3 stats">
             <img className="col-md-12 mr2" src={Graduate} alt="Scholar" />
             <div>
               <h1 className="tc2">100%</h1>

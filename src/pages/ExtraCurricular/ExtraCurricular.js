@@ -111,7 +111,7 @@ export const ExtraCurricular = () => {
       <div className="col-md-12 holder">
         <img className="col-md-12 imgCaro" src={Banner} alt="Scholar" />
         <div className="overlay">
-          <Heading size="3xl"> Extra-Curricular Activities</Heading>
+          <Heading size="2xl"> Extra-Curricular Activities</Heading>
         </div>
       </div>
       <div className="flexy breadcrumb">
@@ -125,7 +125,7 @@ export const ExtraCurricular = () => {
       <div className="col-md-12 flexy curriculum">
         <div className="col-md-1">&nbsp;</div>
         <div className="page-body col-md-5 ">
-          <Heading size="lg" mb="50px" mt="30px">
+          <Heading size="lg" mb="50px" mt="30px" className="m-margin">
             Extra-Curricular Activities
           </Heading>{" "}
           <Heading size="md" mb="10px" mt="20px">
@@ -139,7 +139,7 @@ export const ExtraCurricular = () => {
             all students and they are encouraged to participate in any one of
             their choice.
           </p>
-          <div className="page-body col-md-8 ">
+          <div className=" col-md-8 col-12">
             <Heading size="md" mb="10px" mt="40px">
               Cake Making
             </Heading>

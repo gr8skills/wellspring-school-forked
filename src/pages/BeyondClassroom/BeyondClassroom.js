@@ -19,7 +19,7 @@ export const BeyondClassroom = () => {
       <div className="col-md-12 holder">
         <img className="col-md-12 imgCaro" src={Banner} alt="Scholar" />
         <div className="overlay">
-          <Heading size="3xl">Beyond the Classroom Initiative</Heading>
+          <Heading size="2xl">Beyond the Classroom Initiative</Heading>
         </div>
       </div>
       <div className="flexy breadcrumb">
@@ -28,12 +28,12 @@ export const BeyondClassroom = () => {
           <img className="col-md-12 home-icon" src={Home} alt="Scholar" />
         </a>
         <p>Curriculum</p>
-        <p> Beyond the Classroom Initiative</p>
+        <p> Beyond Classroom Initiative</p>
       </div>
       <div className="col-md-12 flexy beyond-classroom">
         <div className="col-md-1">&nbsp;</div>
         <div className="page-body col-md-7 ">
-          <Heading size="lg" mb="50px" mt="30px">
+          <Heading size="lg" mb="50px" mt="30px" className="m-margin">
             Beyond the Classroom Initiative
           </Heading>{" "}
           <Heading size="md" mb="10px" mt="20px">
@@ -51,8 +51,13 @@ export const BeyondClassroom = () => {
           <div className="flexy col-md-12">
             <div className="col-md-6">
               {" "}
-              <img className="col-md-11 mt6 mb6 br" src={Capture} alt="Scholar" />
-            </div><div className="col-md-6">
+              <img
+                className="col-md-11 mt6 mb6 br"
+                src={Capture}
+                alt="Scholar"
+              />
+            </div>
+            <div className="col-md-6">
               {" "}
               <img className="col-md-11 mt6 mb6 br" src={Tour} alt="Scholar" />
             </div>

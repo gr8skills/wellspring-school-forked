@@ -29,7 +29,7 @@ export const Sports = () => {
       <div className="col-md-12 flexy physical-facilities">
         <div className="col-md-1">&nbsp;</div>
         <div className="page-body col-md-7 ">
-          <Heading size="3xl" mb="50px" mt="30px">
+          <Heading size="3xl" mb="50px" mt="30px" className="m-margin">
             Sports
           </Heading>
           <p>

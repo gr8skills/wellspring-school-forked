@@ -28,14 +28,14 @@ export const NationalCurriculum = () => {
       <div className="col-md-12 flexy curriculum">
         <div className="col-md-1">&nbsp;</div>
         <div className="page-body col-md-5 ">
-          <Heading size="lg" mb="50px" mt="30px">
+          <Heading size="lg" mb="50px" mt="30px" className="m-margin">
             National Curriculum
           </Heading>
           <p>
             Wellspring College operates both the Nigerian Curriculum of
             Education.
           </p>
-          <Heading size="lg" mb="50px" mt="30px">
+          <Heading size="lg" mb="50px" mt="30px" >
             Junior Secondary School
           </Heading>
           <p>
@@ -89,7 +89,7 @@ export const NationalCurriculum = () => {
               </li>
             </ul>
           </div>
-          <Heading size="lg" mb="50px" mt="30px">
+          <Heading size="lg" mb="50px" mt="30px" className="m-margin">
             Senior Secondary School
           </Heading>
           <p>
@@ -186,7 +186,7 @@ export const NationalCurriculum = () => {
         <div className="col-md-3">&nbsp;</div>
 
         <div className="col-md-2 side-menu">
-          <Heading size="md" mb="30px">
+          <Heading size="md" mb="30px" className="m-margin">
             Explore this Section
           </Heading>
 
@@ -210,9 +210,9 @@ export const NationalCurriculum = () => {
       </div>
       <div className="col-md-12 curriculum flexy">
         <div className="col-md-1"></div>
-        <div className="flexy flexyM col-md-8">
+        <div className="flexy  col-md-8">
           <ul className="list-unstyled mr6 4">
-            <Heading size="md" mb="20px" mt="30px">
+            <Heading size="md" mb="20px" mt="30px" className="m-margin">
               ARTS/HUMMANITIES
             </Heading>
             <li className="flexy flexyM">
@@ -272,7 +272,6 @@ export const NationalCurriculum = () => {
               <img className="col-md-12 mr1" src={Dot2} alt="Scholar" />
               BiologyBook-Keeping
             </li>{" "}
-            
           </ul>
         </div>
       </div>

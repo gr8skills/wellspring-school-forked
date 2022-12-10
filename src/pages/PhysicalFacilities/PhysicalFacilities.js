@@ -30,7 +30,7 @@ export const PhysicalFacilities = () => {
       <div className="col-md-12 flexy physical-facilities">
         <div className="col-md-1">&nbsp;</div>
         <div className="page-body col-md-7 ">
-          <Heading size="lg" mb="50px" mt="30px">
+          <Heading size="lg" mb="50px" mt="30px" className="m-margin">
             Physical Facilities
           </Heading>
           <p>
@@ -122,11 +122,13 @@ export const PhysicalFacilities = () => {
             <div className="col-md-11 col-12">
               <img className="col-md-12 br" src={Computer} alt="Scholar" />
             </div>
-          </div> <div className="col-md-4">
+          </div>{" "}
+          <div className="col-md-4">
             <div className="col-md-11 col-12">
               <img className="col-md-12 br" src={Corridor} alt="Scholar" />
             </div>
-          </div> <div className="col-md-4">
+          </div>{" "}
+          <div className="col-md-4">
             <div className="col-md-11 col-12">
               <img className="col-md-12 br" src={Court} alt="Scholar" />
             </div>

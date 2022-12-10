@@ -127,7 +127,7 @@ export const CoCurricular = () => {
       <div className="col-md-12 holder">
         <img className="col-md-12 imgCaro" src={Banner} alt="Scholar" />
         <div className="overlay">
-          <Heading size="3xl"> Co-Curricular Activities</Heading>
+          <Heading size="2xl"> Co-Curricular Activities</Heading>
         </div>
       </div>
       <div className="flexy breadcrumb">
@@ -141,7 +141,7 @@ export const CoCurricular = () => {
       <div className="col-md-12 flexy curriculum">
         <div className="col-md-1">&nbsp;</div>
         <div className="page-body col-md-5 ">
-          <Heading size="lg" mb="50px" mt="30px">
+          <Heading size="lg" mb="50px" mt="30px" className="m-margin">
             Co-Curricular Activities
           </Heading>
           <p>
@@ -150,8 +150,8 @@ export const CoCurricular = () => {
             clubs/societies organize extracurricular activities that are
             informative, inspiring, enlightening, and exciting.
           </p>
-          <div className="page-body col-md-8 ">
-            <Heading size="lg" mb="50px" mt="30px">
+          <div className="page-body col-md-8 col-12">
+            <Heading size="lg" mb="50px" mt="30px" className="m-margin ">
               Literary and Debating Society
             </Heading>
             <p>

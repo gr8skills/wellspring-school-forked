@@ -29,11 +29,11 @@ export const StayConnected =()=>{
               </p>
               <AppButton text="Subscribe to our Channel" />
             </div>
-            <div className="col-md-12 flexy" style={{ marginTop: "10px" }}>
-              <div className="col-md-6">
+            <div className="col-md-12 flexy flexyM" style={{ marginTop: "10px" }}>
+              <div className="col-md-6 col-6">
                 <img className="col-md-12 imgCaro" src={Class} alt="Scholar" />
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 col-6">
                 <img
                   className="col-md-12 imgCaro"
                   src={Compute}
@@ -44,8 +44,8 @@ export const StayConnected =()=>{
             <Button>Follow us on instagram</Button>
           </div>
 
-          <div className="col-md-2  socials">
-            <div className="col-md-6">
+          <div className="col-md-2  socials flexyM">
+            <div className="col-md-6 col-6">
               <img
                 className="col-md-12 imgCaro"
                 src={FB}
@@ -57,7 +57,7 @@ export const StayConnected =()=>{
               </Heading>
             </div>
 
-            <div className="col-md-6 ">
+            <div className="col-md-6 col-6">
               <img
                 className="col-md-12 imgCaro "
                 src={LI}
