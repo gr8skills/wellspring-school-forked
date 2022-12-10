@@ -27,3 +27,43 @@ body{
     transform: rotate(360deg);
   }
 }
+@font-face {
+    font-family:jakartaBB;
+    src: url(./assets/jakartaBB.ttf);
+}@font-face {
+    font-family:jakartaB;
+    src: url(./assets/jakartaB.ttf);
+}
+
+@font-face {
+    font-family:jakartaL;
+    src: url(./assets/jakartaL.ttf);
+}
+
+@font-face {
+    font-family:jakartaR;
+    src: url(./assets/jakartaR.ttf);
+}
+
+@font-face {
+    font-family:jakartaM;
+    src: url(./assets/jakartaM.ttf);
+}
+
+
+p {
+  font-family:jakartaR;
+}h1 h2{
+  font-family:jakartaBB;
+}
+.jff{
+    font-family:jakartaBB;
+
+}
+ul li {
+  font-family:jakartaR;
+}
+a{
+    font-family:jakartaR;
+
+}
