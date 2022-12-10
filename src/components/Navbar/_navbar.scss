@@ -99,17 +99,17 @@
         display: flex;
         flex-direction: column;
         position: absolute;
-        height: 42rem;
+        height: 50rem;
         width: 100%;
         max-width: 100% !important;
-        top: 148px;
+        // top: 120px;
         transform: translateY(4%);
         opacity: 1;
         right: 100%;
         transition: all .5s linear;
     background-color: $themecolor;
     @media screen and (max-width:620px){
-                top: 50px;
+                top: 45px;
 
     }
 
@@ -172,7 +172,7 @@
 
 .wrapper{
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color:$themecolor;
@@ -254,25 +254,7 @@ text-align: center !important;
     border-left: 11px solid #ffffff;
     border-bottom: 24px solid transparent;
 }
-.subMenu a:after{
-    content: '';
-    opacity: 0;
-    transition: opacity 0.3s;
 
-}
-.subMenu a:hover:after{
-    content: '';
-    position: absolute;
-    height: 0;
-    width: 6px;
-    right: 0px;
-    top:0;
-    opacity: 1;
-    /* background-color: #d8d824; */
-    border-top: 24px solid transparent;
-    border-right: 11px solid #ffffff;
-    border-bottom: 24px solid transparent;
-}
 .subMenu a:hover{
    background-color:rgb(255,255,255);
     transition: all 0.3s;
@@ -310,24 +292,5 @@ text-align: center !important;
     // float:right;
     }
 
-.portal{
-  background-color:white;
-  width:120px;
-  margin-left:50px;
- padding:7px !important;
- color:rgb(31,71,17)!important;
-  margin-top:20px !important;
-   font-size:5px !important;
-      text-decoration: none;
-  border-radius:35px;
-  }
 
-
-  .port button {
-      background-color:white !important
-  }
-
-  .portal a{
-     
-  }
 
