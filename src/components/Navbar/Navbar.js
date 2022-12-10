@@ -64,10 +64,10 @@ function NavBar() {
       <nav className="navContainer">
         <div className={classes.navCont}>
           <div className={classes.imgCont} id="mobile-logo">
-          <Link to={"/"}>
-            <img src={Logo} alt=" logo" className={classes.imgContent} />
-          </Link>
-        </div>
+            <Link to={"/"}>
+              <img src={Logo} alt=" logo" className={classes.imgContent} />
+            </Link>
+          </div>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
@@ -192,132 +192,159 @@ function NavBar() {
             </li>
             <div className="wrapper">
               <ul className="mainMenu">
+                <li className="item" id="support">
+                  <a href="/" class="btn">
+                    HOME
+                  </a>
+                </li>
                 <li className="item" id="account">
                   <a href="#account" className="btn">
                     About
                   </a>
                   <div className="subMenu">
                     <NavLink
-                      to={"/principal"}
+                      to={"/about-us"}
                       className="nav-links"
                       onClick={closeMobileMenu}
                     >
-                      Administrator's Message
+                      About Us
                     </NavLink>{" "}
                     <NavLink
-                      to={"/message"}
+                      to={"/proprietor-message"}
                       className="nav-links"
                       onClick={closeMobileMenu}
                     >
                       Proprietor's Message
                     </NavLink>
                     <NavLink
-                      to={"/history"}
+                      to={"/vision"}
                       className="nav-links"
                       onClick={closeMobileMenu}
                     >
-                      History
+                      Vision , Mission & Core Values
                     </NavLink>
                     <NavLink
-                      to={"/contact"}
+                      to={"/discipline"}
                       className="nav-links"
                       onClick={closeMobileMenu}
                     >
-                      Contact Us
+                      Discipline
                     </NavLink>
                     <NavLink
-                      to={"/Conduct"}
+                      to={"/school-song"}
                       className="nav-links"
                       onClick={closeMobileMenu}
                     >
-                      Parents Code-of-Conduct
+                      School Song
+                    </NavLink>{" "}
+                    <NavLink
+                      to={"/teaching-team"}
+                      className="nav-links"
+                      onClick={closeMobileMenu}
+                    >
+                      Teaching Team
                     </NavLink>
                   </div>
                 </li>
-
+                <li className="item" id="support">
+                  <a href="/admission" class="btn">
+                   ADMISSION
+                  </a>
+                </li>
                 <li className="item" id="academics">
                   <a href="#academics" class="btn">
-                    Admission
+                    CURRICULUM
                   </a>
                   <div className="subMenu">
                     <NavLink
-                      to={"/apply"}
+                      to={"/national-curriculum"}
                       className="nav-links"
                       onClick={closeMobileMenu}
                     >
-                      How to Apply
+                      National Curriculum
                     </NavLink>{" "}
                     <NavLink
-                      to={"/fees"}
+                      to={"/co-corricular"}
                       className="nav-links"
                       onClick={closeMobileMenu}
                     >
-                      School Fees
+                      Co-Corricular
                     </NavLink>{" "}
                     <NavLink
-                      to={"/transfer"}
+                      to={"/extra-curricular"}
                       className="nav-links"
                       onClick={closeMobileMenu}
                     >
-                      Transfer
+                      Extra Curricular
+                    </NavLink>
+                    <NavLink
+                      to={"/beyond-classroom"}
+                      className="nav-links"
+                      onClick={closeMobileMenu}
+                    >
+                      Beyond the Classroom Initiative
                     </NavLink>{" "}
                   </div>
                 </li>
 
                 <li className="item" id="admission">
                   <a href="#admission" class="btn">
-                    Academics
+                    FACILITIES
                   </a>
                   <div className="subMenu">
                     <NavLink
-                      to={"/senior"}
+                      to={"/physical-faciliies"}
                       className="nav-links"
                       onClick={closeMobileMenu}
                     >
-                      Creche
+                      Physical Facilities{" "}
                     </NavLink>{" "}
                     <NavLink
-                      to={"/junior"}
+                      to={"/sports"}
                       className="nav-links"
                       onClick={closeMobileMenu}
                     >
-                      Higher Primary
+                      Sports{" "}
                     </NavLink>{" "}
                     <NavLink
-                      to={"/Primary"}
+                      to={"/building-faciliies"}
                       className="nav-links"
                       onClick={closeMobileMenu}
                     >
-                      Junior Primary
+                      Building Facilities
                     </NavLink>{" "}
                     <NavLink
-                      to={"/secondary"}
+                      to={"/health-catering"}
                       className="nav-links"
                       onClick={closeMobileMenu}
                     >
-                      Secondary
+                      Health & Catering
                     </NavLink>{" "}
                   </div>
                 </li>
 
                 <li className="item" id="support">
-                  <a href={"/school"} class="btn">
-                    School Life
+                  <a href={"/gallery"} class="btn">
+                    GALLERY
                   </a>
                 </li>
 
                 <li className="item" id="support">
-                  <a href="/Gallery" class="btn">
-                    Gallery
+                  <a href="/school-life" class="btn">
+                    SCHOOL LIFE{" "}
                   </a>
                 </li>
 
                 <li className="item" id="support">
-                  <a href="/News" class="btn">
-                    News & Events
+                  <a href="/blog" class="btn">
+                    NEWS
                   </a>
                 </li>
-               
+                <li className="item" id="support">
+                  <a href="/contact-us" class="btn">
+                    CONTACT
+                  </a>
+                </li>
               </ul>
             </div>
           </ul>
