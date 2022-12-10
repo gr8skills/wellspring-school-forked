@@ -9,7 +9,7 @@ import "./_navbar.scss";
 import { TopNav } from "./TopNav";
 import Logo from "../../assets/logo.png";
 
-function NavBar() {
+function NavBar({sticky}) {
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
 
@@ -61,7 +61,8 @@ function NavBar() {
 
   return (
     <>
-      <nav className="navContainer">
+      <nav className={sticky ? "navContainer navbar-sticky" : "navContainer"}>
+        
         <div className={classes.navCont}>
           <div className={classes.imgCont} id="mobile-logo">
             <Link to={"/"}>
@@ -248,7 +249,7 @@ function NavBar() {
                 </li>
                 <li className="item" id="support">
                   <a href="/admission" class="btn">
-                   ADMISSION
+                    ADMISSION
                   </a>
                 </li>
                 <li className="item" id="academics">

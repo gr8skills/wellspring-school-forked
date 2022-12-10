@@ -4,10 +4,11 @@ import { BrowserRouter, Routes, Route, Link, Outlet } from "react-router-dom";
 import Icofont from "react-icofont";
 import { SearchBar } from '../SearchBar/SearchBar';
 
-export const TopNav =()=>{
-    return (
-      <>
-        <div className="col-md-12 upper-nav flexy">
+export const TopNav = ({ element }) => {
+  return (
+    <>
+      <div className="col-md-12 upper-nav">
+        <div className="col-md-12  flexy" ref={element}>
           <div className="col-md-1">&nbsp;</div>
           <div className="col-md-2">
             <Link to={"/home"}>
@@ -49,6 +50,7 @@ export const TopNav =()=>{
             <SearchBar />
           </div>
         </div>
-      </>
-    );
-}
+      </div>
+    </>
+  );
+};

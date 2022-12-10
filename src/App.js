@@ -28,13 +28,16 @@ import { ContactUs } from './pages/ContactUs/ContactUs';
 import { Blog } from './pages/Blog/Blog';
 import { MainBlogPost } from './pages/Blog/MainBlogPost copy/MainBlogPost';
 import { TopNav } from './components/Navbar/TopNav';
+import useSticky from "./hooks/useSticky.js";
 
 function App() {
+    const { isSticky, element } = useSticky();
+
   return (
     <BrowserRouter>
-      <TopNav />
+      <TopNav element={element} />
 
-      <NavBar />
+      <NavBar sticky={isSticky} />
 
       <Routes>
         <Route path="/" element={<Home />} />
