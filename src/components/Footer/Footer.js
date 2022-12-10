@@ -24,7 +24,7 @@ export const Footer = () => {
                 <a href="/about-us">About Us</a>
               </li>{" "}
               <li>
-                <a href="/curriculum">Curriculum</a>
+                <a href="/national-curriculum">Curriculum</a>
               </li>{" "}
               <li>
                 <a href="/physical-facilities">Facilities</a>

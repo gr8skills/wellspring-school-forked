@@ -44,7 +44,7 @@ export const AppTab = () => {
             academic and moral excellence. We also produced the 3rd best student
             in 2017 WASSCE in Lagos State. Our students excel in various
             academic and co-curricular competitions."
-                  url={""}
+                  url={"/admission"}
                 />
               </TabPanel>
               <TabPanel>
@@ -56,7 +56,7 @@ export const AppTab = () => {
             academic and moral excellence. We also produced the 3rd best student
             in 2017 WASSCE in Lagos State. Our students excel in various
             academic and co-curricular competitions."
-                  url={""}
+                  url={"/physical-facilities"}
                 />
               </TabPanel>
               <TabPanel>
@@ -68,7 +68,7 @@ export const AppTab = () => {
             academic and moral excellence. We also produced the 3rd best student
             in 2017 WASSCE in Lagos State. Our students excel in various
             academic and co-curricular competitions."
-                  url={""}
+                  url={"/national-curriculum"}
                 />
               </TabPanel>
               <TabPanel>
@@ -80,7 +80,7 @@ export const AppTab = () => {
             academic and moral excellence. We also produced the 3rd best student
             in 2017 WASSCE in Lagos State. Our students excel in various
             academic and co-curricular competitions."
-                  url={""}
+                  url={"co-curricular"}
                 />
               </TabPanel>
               <TabPanel>
@@ -92,7 +92,7 @@ export const AppTab = () => {
             academic and moral excellence. We also produced the 3rd best student
             in 2017 WASSCE in Lagos State. Our students excel in various
             academic and co-curricular competitions."
-                  url={""}
+                  url={"extra-curricular"}
                 />
               </TabPanel>
               <TabPanel>
