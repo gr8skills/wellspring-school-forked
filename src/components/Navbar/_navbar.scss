@@ -26,6 +26,7 @@
   top: 0;
   left: 0;
   animation: moveDown 1s ease-in-out;
+  
 }
 
 .nav-list{
@@ -38,6 +39,7 @@
     font-family: monserat;
     transform: translateY(54%);
     margin: 0 !important;
+    
 }
 
 .nav-list li{
@@ -46,6 +48,7 @@
     margin: 0 0px 0 0px;
     font-size: 14px;
    width:100%;
+   
 }
 
 /* .nav-list li a{
@@ -75,13 +78,13 @@
     text-decoration: none;
     height: 100%;
     transition: all 0.2s ease-out;
+    font-weight:bold;
 
 }
 
 .nav-links:hover {
     background-color: #fff;
     text-decoration: none;
-    // padding:5px;
     color:$themecolor;
 }
 

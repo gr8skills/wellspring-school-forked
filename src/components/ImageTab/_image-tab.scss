@@ -3,6 +3,10 @@
 @import "../../variables";
 
 .image-tab {
+  .tabL{
+    	transition: color 0.15s ease-in !important;
+
+  }
   img {
     width: 100%;
     border-radius: 10px;

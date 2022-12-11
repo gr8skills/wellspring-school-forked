@@ -4,16 +4,27 @@
 .blog-post{
     p{font-size: 20px;line-height:45px;}
     small{color:grey}
-/* Quick-zoom Container */
-.img-hover-zoom--quick-zoom img {
-  transform-origin: 0 0;
-  transition: transform .25s, visibility .25s ease-in;
-}
 
-/* The Transformation */
-.img-hover-zoom--quick-zoom:hover img {
-  transform: scale(2);
-}
 
 
 }
+
+  .zoom{
+         overflow: hidden !important;
+            margin: 0 auto;
+          img {
+              transition: transform 0.25s;
+
+            &:hover{
+  transform: scale(1.1);
+
+            }
+        }
+      }
+  
+  .zoom:hover {
+        overflow:hidden;
+
+      transform: scale(1.4);
+  
+  }

@@ -11,7 +11,7 @@ export const TopNav = ({ element }) => {
         <div className="col-md-12  flexy" ref={element}>
           <div className="col-md-1">&nbsp;</div>
           <div className="col-md-2">
-            <Link to={"/home"}>
+            <Link to={"/"}>
               {" "}
               <img className="col-md-8 imgCaro" src={Logo} alt="Scholar" />
             </Link>

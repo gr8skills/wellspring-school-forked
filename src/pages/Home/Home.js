@@ -314,7 +314,10 @@ export const Home = () => {
             </CalendarCarousel>
           </div>
         </div>
-        <Button className="calendar-button">View all events</Button>
+        <Link to={'/blog'}>
+          {" "}
+          <Button className="calendar-button">View all events</Button>
+        </Link>
       </div>
       <div className="col-md-12 flexy news-container">
         <div className="col-md-1">&nbsp;</div>
@@ -360,7 +363,7 @@ export const Home = () => {
             <AppButton text="Subscribe to our Channel" />
           </div>
           <div className="col-md-12 flexy flexyM" style={{ marginTop: "40px" }}>
-            <div className="col-md-6 col-6 second-img" >
+            <div className="col-md-6 col-6 second-img">
               <img
                 className="col-md-12 imgCaro"
                 src={Class}

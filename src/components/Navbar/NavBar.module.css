@@ -41,7 +41,6 @@
         justify-content: space-between;
         margin: 0 auto;
         max-height: 5rem;
-    /* float:right; */
     }
 
 .navCont{
@@ -51,10 +50,11 @@
 
 }
     .imgContent{
-        position: absolute;
+        position: relative;
         z-index: 1;
         height: 16vw;
-    
+        float:right !important;
+
     }
 
 }

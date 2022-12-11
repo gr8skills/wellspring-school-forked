@@ -30,10 +30,16 @@ export const ImageTab = () => {
 
           <Tabs variant="unstyled">
             <TabList className="tabb">
-              <Tab _selected={{ color: "white", bg: "#5EC0FB" }}>
+              <Tab
+                _selected={{ color: "white", bg: "#5EC0FB" }}
+                className="tabL"
+              >
                 Student Life
               </Tab>
-              <Tab _selected={{ color: "white", bg: "#5EC0FB" }}>
+              <Tab
+                _selected={{ color: "white", bg: "#5EC0FB" }}
+                className="tabL"
+              >
                 Admissions
               </Tab>
             </TabList>
