@@ -7,48 +7,47 @@
 .read-more-target {
   opacity: 0;
   max-height: 0;
-  font-size: 0;
-  transition: .25s ease;
-}
-.spot{
-  width:0 ;
   overflow: hidden;
-  transition: .25s ease;
-  
+  font-size: 0;
+  transition: 0.25s ease;
+}
+.spot {
+  width: 0;
+  overflow: hidden;
+  transition: 0.25s ease;
 }
 .read-more-state:checked ~ .read-more-target {
   opacity: 1;
   font-size: inherit;
   max-height: 999em;
+  overflow: visible !important;
 }
-.read-more-state:checked ~ .spot{
+.read-more-state:checked ~ .spot {
   width: 100%;
-    overflow: visible;
-
+  overflow: visible;
 }
 
 .read-more-state ~ .read-more-trigger:before {
-  content: 'Show more';
+  content: "Show more";
 }
 
 .read-more-state:checked ~ .read-more-trigger:before {
-  content: 'Show less';
+  content: "Show less";
 }
 
 .read-more-trigger {
-color: $themecolor2;
+  color: $themecolor2;
   text-decoration: none;
   letter-spacing: 1px;
   cursor: pointer;
-  border:solid 1px $themecolor2;
-  padding:3px 30px;
-  border-radius:7px;
-  margin-left:45%;
-  margin-bottom:40px;
-  &:hover{
-    background-color:$themecolor2;
-    color:white;
-      transition: 1s ease;
-
+  border: solid 1px $themecolor2;
+  padding: 3px 30px;
+  border-radius: 7px;
+  margin-left: 45%;
+  margin-bottom: 40px;
+  &:hover {
+    background-color: $themecolor2;
+    color: white;
+    transition: 1s ease;
   }
 }

@@ -102,7 +102,7 @@ export const Playground =()=>{
           </div>
           <div className="col-md-12 flexy">
             <div className="col-md-1">&nbsp;</div>
-            <div className="col-md-10 flexy">
+            <div className="col-md-10 flexy ">
               <div className="col-md-6 ">
                 <div className="col-md-11">
                   {" "}
