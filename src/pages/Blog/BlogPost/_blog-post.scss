@@ -2,7 +2,10 @@
 @import "../../../variables";
 
 .blog-post{
-    p{font-size: 20px;line-height:45px;}
+    p{font-size: 20px;line-height:30px;
+    &:hover{
+      text-decoration: underline;
+    }}
     small{color:grey}
 
 

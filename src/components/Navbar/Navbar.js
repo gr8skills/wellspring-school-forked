@@ -265,11 +265,11 @@ function NavBar({sticky}) {
                       National Curriculum
                     </NavLink>{" "}
                     <NavLink
-                      to={"/co-corricular"}
+                      to={"/co-curricular"}
                       className="nav-links"
                       onClick={closeMobileMenu}
                     >
-                      Co-Corricular
+                      Co-Curricular
                     </NavLink>{" "}
                     <NavLink
                       to={"/extra-curricular"}
