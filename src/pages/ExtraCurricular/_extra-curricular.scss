@@ -8,15 +8,33 @@
   text-decoration: none;
   letter-spacing: 1px;
   cursor: pointer;
+    transition: .25s ease !important;
+
 }
 
 .read-more button{
     border:solid 1px $themecolor2;
 padding:5px 35px;
 border-radius:5px;
-font-size:16px
+font-size:16px;
+  transition: .25s ease !important;
+
 }
 .read-more {
     text-align: center;
+  transition: .25s ease !important;
 
+}
+.fadeOut{
+     opacity:0;
+     width:0;
+     height:0;
+     transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s ease-in-out;
+     overflow:hidden;
+}
+.fadeIn{
+     opacity:1;
+     width:100%;
+     height:100%;
+     transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s ease-in-out;
 }

@@ -26,7 +26,9 @@ import { Playground } from "../../components/Playground/Playground";
 export const ExtraCurricular = () => {
   const [readMore, setReadMore] = useState(false);
   const extraContent = (
-    <div className="col-md-12 flexy extra-content">
+    <div
+      className={`col-md-12 flexy extra-content ${readMore ? "fadeIn" : "fadeOut" }`}
+    >
       <div className="col-md-1">&nbsp;</div>
       <div className="col-md-10 flexy">
         <div className="col-md-6 ">
@@ -99,7 +101,6 @@ export const ExtraCurricular = () => {
               and fascinators, to hats for all occasions.
             </p>
             <img className="col-md-12 mt6 mb6" src={Hat} alt="Scholar" />
-            
           </div>
         </div>
       </div>
@@ -228,7 +229,8 @@ export const ExtraCurricular = () => {
           </div>
         </div>
       </div>
-      <div className="read-more col-md-12">
+     {extraContent} 
+     <div className="read-more col-md-12">
         <button
           className="read-more-link"
           onClick={() => {
@@ -237,7 +239,8 @@ export const ExtraCurricular = () => {
         >
           <h1>{linkName}</h1>
         </button>
-        {readMore && extraContent}
+        
+        {/* {readMore ? extraContent.fadeIn() : extraContent.fadeOut()} */}
       </div>
       {/* <Playground /> */}
       <StayConnected />

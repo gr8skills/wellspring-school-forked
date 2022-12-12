@@ -3,19 +3,21 @@
 
 .home-page-trans {
   img {
-    margin-top: 127px;
+    margin-top: 90px;
     height: 100% !important;
     @media screen and (max-width: 620px) {
       margin-top: 0px;
     }
   }
   .slider-label {
-    margin-top: 300px;
+    margin-top: 200px;
     h1 {
-      font-size: 60px;
+      font-size: 70px;
+      color:rgb(95, 93, 93);
     }
     p {
       font-size: 24px;
+      align-content: justify;
     }
     @media screen and (max-width: 620px) {
       display: none;
@@ -30,7 +32,7 @@
     width: 100%;
     // overflow: hidden;
     border-radius: 20px !important;
-    height:1120px;
+    height:1100px;
     @media screen and (max-width:620px){
           height:fit-content;
 
@@ -121,7 +123,7 @@
     position: relative;
 
     margin-right: 30px;
-    margin-bottom: 170px;
+    margin-bottom: 200px;
     width: 20px;
     height: 80px;
   }
@@ -131,7 +133,7 @@
     position: relative;
     right: 60px !important;
     width: 20px;
-        margin-bottom: 170px;
+        margin-bottom: 200px;
 
     height: 80px;
   }
@@ -148,6 +150,13 @@
       font-weight: bold;
       margin-bottom: 30px;
     }
+  }
+  .message-img{
+   background-image: url("../../assets/bgg.png");
+   background-repeat:repeat;
+  //  background-size:500px;
+   background-position:bottom left;
+
   }
 }
 
@@ -189,7 +198,7 @@
 }
 
 .welcome-message-header {
-  margin-top: 130px;
+  // margin-top: 130px;
   text-align: center;
   font-size: 40px;
 }

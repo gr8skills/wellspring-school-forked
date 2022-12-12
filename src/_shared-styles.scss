@@ -15,7 +15,9 @@
     padding-right:10px;
     border:solid 1px rgb(189, 187, 187) !important;
   }
-  
+  .dn{
+    display:none;
+  }
   .holder img{
     height:200px;
     margin-top:40px !important;
@@ -44,11 +46,12 @@
 
 .side-menu {
   height: fit-content;
-  padding: 40px;
+  padding: 30px;
   background-color: #f9fafa;
   border-radius: 10px;
   ul li {
     line-height: 60px;
+    font-size:14px;
     &:hover {
       color: $themecolor2 !important;
     }

@@ -5,6 +5,8 @@ import Slider3 from "../../assets/slider3.png";
 import Admin from "../../assets/admin.png";
 import Principal from "../../assets/principal.png";
 import Class from "../../assets/class.png";
+import Image from "../../assets/Image2.png";
+import Block from "../../assets/bgg.png";
 import Compute from "../../assets/compute.png";
 import Grad from "../../assets/grad.png";
 import Speech from "../../assets/speech.png";
@@ -42,7 +44,7 @@ export const Home = () => {
               <div className="col-md-12 flexy">
                 <div className="col-md-4 slider-label">
                   <h1>Beyond the Classroom</h1>
-                  <p className="mb5">
+                  <p className="mb5 mt3">
                     Wellspring College Students Visit Foremost Award-Winning
                     Fashion Designer Mai Atafo
                   </p>
@@ -63,7 +65,7 @@ export const Home = () => {
               <div className="col-md-12 flexy">
                 <div className="col-md-4 slider-label">
                   <h1>WELLSPRING OUTINGS</h1>
-                  <p className="mb5">
+                  <p className="mb5 mt3">
                     Wellspring College Students Visit Foremost Award-Winning
                     Designer Mai Atafo
                   </p>
@@ -84,7 +86,7 @@ export const Home = () => {
               <div className="col-md-12 flexy">
                 <div className="col-md-4 slider-label">
                   <h1>WELLSPRING OUTINGS</h1>
-                  <p className="mb5">
+                  <p className="mb5 mt3">
                     Wellspring College Students Visit Foremost Award-Winning
                     Designer Mai Atafo
                   </p>
@@ -106,7 +108,7 @@ export const Home = () => {
             <h1>Welcome to Wellspring College</h1>
           </div>
           <div className="col-md-12 flexy welcome-message">
-            <div className="col-md-5">
+            <div className="col-md-5 message-img">
               <img className="col-md-12 br" src={Admin} alt="Scholar" />
             </div>
             <div className="col-md-6 inner-massage">
@@ -126,6 +128,16 @@ export const Home = () => {
               </Link>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="col-md-12 flexy ">
+        <div className="col-md-2 dn" style={{ marginTop: "-120px" }}>
+          <img className="col-md-12 br" src={Block} alt="Scholar" />
+        </div>
+        <div className="col-md-5">&nbsp;</div>
+        <div className="col-md-5 " style={{ marginTop: "120px" }}>
+          {" "}
+          <img className="col-md-12 br" src={Image} alt="Scholar" />
         </div>
       </div>
       <Prospectus />
@@ -314,7 +326,7 @@ export const Home = () => {
             </CalendarCarousel>
           </div>
         </div>
-        <Link to={'/blog'}>
+        <Link to={"/blog"}>
           {" "}
           <Button className="calendar-button">View all events</Button>
         </Link>
