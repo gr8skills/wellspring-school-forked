@@ -19,9 +19,9 @@ export const NationalCurriculum = () => {
       </div>
       <div className="flexy breadcrumb">
         <div className="col-md-1">&nbsp;</div>
-        <a href="#">
+        <Link to={"/"}>
           <img className="col-md-12 home-icon" src={Home} alt="Scholar" />
-        </a>
+        </Link>
         <p>Curriculum</p>
         <p> National Curriculum</p>
       </div>
@@ -35,7 +35,7 @@ export const NationalCurriculum = () => {
             Wellspring College operates both the Nigerian Curriculum of
             Education.
           </p>
-          <Heading size="lg" mb="50px" mt="30px" >
+          <Heading size="lg" mb="50px" mt="30px">
             Junior Secondary School
           </Heading>
           <p>

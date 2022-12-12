@@ -19,9 +19,9 @@ export const SchoolLife = () => {
       </div>
       <div className="flexy breadcrumb">
         <div className="col-md-1">&nbsp;</div>
-        <a href="#">
+        <Link to={"/"}>
           <img className="col-md-12 home-icon" src={Home} alt="Scholar" />
-        </a>
+        </Link>
         <p>School Life</p>
       </div>
       <div className="col-md-12 flexy ">

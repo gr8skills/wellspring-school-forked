@@ -10,6 +10,7 @@ import Twitter from "../../assets/sms.png";
 import Linkedin from "../../assets/linkedin2.png";
 import Educare from "../../assets/educare.png";
 import { SearchBar } from "../SearchBar/SearchBar";
+import { Link, NavLink } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -21,21 +22,21 @@ export const Footer = () => {
           <div className="col-md-12 flexy flexyM">
             <ul className="list-unstyled">
               <li>
-                <a href="/about-us">About Us</a>
+                <Link to={"/about-us"}>About Us</Link>
               </li>{" "}
               <li>
-                <a href="/national-curriculum">Curriculum</a>
+                <Link to={"/national-curriculum"}>Curriculum</Link>
               </li>{" "}
               <li>
-                <a href="/physical-facilities">Facilities</a>
+                <Link to={"/physical-facilities"}>Facilities</Link>
               </li>
             </ul>
             <ul className="list-unstyled">
               <li>
-                <a href="/school-life">School Life</a>
+                <Link to={"/school-life"}>School Life</Link>
               </li>{" "}
               <li>
-                <a href="/blog">News</a>
+                <Link to={"/blog"}>News</Link>
               </li>{" "}
               <li>
                 <a href="/media-gallery">Media Gallery</a>

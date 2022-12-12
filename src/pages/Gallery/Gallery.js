@@ -102,15 +102,18 @@ export const Gallery = () => {
       </div>
       <div className="flexy breadcrumb">
         <div className="col-md-1">&nbsp;</div>
-        <a href="/home">
+        <Link to={"/"}>
           <img className="col-md-12 home-icon" src={Home} alt="Scholar" />
-        </a>
+        </Link>
         <p>Media Gallery</p>
       </div>
       <div className="col-md-12 flexy">
         <div className="col-md-1">&nbsp;</div>
 
-        <div className="page-body col-md-10 " style={{textAlign: 'center'}}>
+        <div
+          className="page-body col-md-10 m-margin"
+          style={{ textAlign: "center" }}
+        >
           <Heading size="xl" mb="50px" mt="30px">
             Media Gallery
           </Heading>
@@ -126,14 +129,16 @@ export const Gallery = () => {
                     onClick={() => {
                       openLightbox(0);
                     }}
-                  /><img
+                  />
+                  <img
                     className="col-md-12 br gallery-images mt1"
                     src={Index1}
                     alt="Scholar"
                     onClick={() => {
                       openLightbox(1);
                     }}
-                  /><img
+                  />
+                  <img
                     className="col-md-12 br gallery-images mt1"
                     src={Index2}
                     alt="Scholar"
@@ -185,7 +190,8 @@ export const Gallery = () => {
                     }}
                     alt="Scholar"
                   />
-                </div><div className="col-md-11 col-12">
+                </div>
+                <div className="col-md-11 col-12">
                   <img
                     className="col-md-12 br gallery-images mt1"
                     src={Index7}
@@ -194,7 +200,8 @@ export const Gallery = () => {
                     }}
                     alt="Scholar"
                   />
-                </div><div className="col-md-11 col-12">
+                </div>
+                <div className="col-md-11 col-12">
                   <img
                     className="col-md-12 br gallery-images mt1"
                     src={Index8}

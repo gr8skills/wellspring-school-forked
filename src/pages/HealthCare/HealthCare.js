@@ -18,9 +18,9 @@ export const HealthCare = () => {
       </div>
       <div className="flexy breadcrumb">
         <div className="col-md-1">&nbsp;</div>
-        <a href="#">
+        <Link to={"/"}>
           <img className="col-md-12 home-icon" src={Home} alt="Scholar" />
-        </a>
+        </Link>
         <p>Facilities</p>
         <p>Health & Catering</p>
       </div>
@@ -84,7 +84,6 @@ export const HealthCare = () => {
               <img className="col-md-12 br" src={Image} alt="Scholar" />
             </div>
           </div>{" "}
-         
         </div>
       </div>
       <StayConnected />

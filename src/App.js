@@ -29,15 +29,19 @@ import { Blog } from './pages/Blog/Blog';
 import { MainBlogPost } from './pages/Blog/MainBlogPost copy/MainBlogPost';
 import { TopNav } from './components/Navbar/TopNav';
 import useSticky from "./hooks/useSticky.js";
+import ScrollToTop from "./components/scrollToTop";
 
 function App() {
     const { isSticky, element } = useSticky();
 
   return (
     <BrowserRouter>
-      <TopNav element={element} />
+      <ScrollToTop />
+      {/* <TopNav element={element} /> */}
+      <TopNav />
 
-      <NavBar sticky={isSticky} />
+      {/* <NavBar sticky={isSticky} /> */}
+      <NavBar />
 
       <Routes>
         <Route path="/" element={<Home />} />

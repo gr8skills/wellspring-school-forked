@@ -22,15 +22,15 @@ export const ContactUs = () => {
       </div>
       <div className="flexy breadcrumb">
         <div className="col-md-1">&nbsp;</div>
-        <a href="#">
+        <Link to={"/"}>
           <img className="col-md-12 home-icon" src={Home} alt="Scholar" />
-        </a>
+        </Link>
         <p>Contact Us</p>
       </div>
       <div className="col-md-12 flexy contact">
         <div className="col-md-1">&nbsp;</div>
 
-        <div className="col-md-4 mt7">
+        <div className="col-md-4 mt7 m-margin">
           <Heading size="sm" mb="30">
             Wellspring College
           </Heading>
@@ -41,12 +41,12 @@ export const ContactUs = () => {
             </li>{" "}
             <li>
               <i class="icofont-phone"></i> (+234) 818- 648-3476 <br />
-              (+234) 908-5772-150
+              <span className="ml5">(+234) 908-5772-150</span>
             </li>
             <li>
               <i class="icofont-briefcase-1"></i> Monday - Friday: 08:00-17:00
               <br />
-              Saturday & Sunday: Closed
+              <span className="ml5">Saturday & Sunday: Closed</span>
             </li>
             <li>
               <i class="icofont-ui-message"></i> info@wellspringcollege.org
@@ -60,7 +60,7 @@ export const ContactUs = () => {
           </ul>
         </div>
 
-        <div className="col-md-6 ml2 mt6">
+        <div className="col-md-6 ml2 mt6 map-container">
           <Heading size="xl" mb="50px" className="tac">
             Contact
           </Heading>{" "}

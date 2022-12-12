@@ -117,9 +117,9 @@ export const ExtraCurricular = () => {
       </div>
       <div className="flexy breadcrumb">
         <div className="col-md-1">&nbsp;</div>
-        <a href="#">
+        <Link to={"/"}>
           <img className="col-md-12 home-icon" src={Home} alt="Scholar" />
-        </a>
+        </Link>
         <p>Curriculum</p>
         <p> Extra-Curricular Activities</p>
       </div>
@@ -229,8 +229,8 @@ export const ExtraCurricular = () => {
           </div>
         </div>
       </div>
-     {extraContent} 
-     <div className="read-more col-md-12">
+      {extraContent}
+      <div className="read-more col-md-12">
         <button
           className="read-more-link"
           onClick={() => {
@@ -239,7 +239,7 @@ export const ExtraCurricular = () => {
         >
           <h1>{linkName}</h1>
         </button>
-        
+
         {/* {readMore ? extraContent.fadeIn() : extraContent.fadeOut()} */}
       </div>
       {/* <Playground /> */}

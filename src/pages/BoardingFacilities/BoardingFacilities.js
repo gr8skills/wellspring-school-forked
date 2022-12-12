@@ -18,9 +18,9 @@ export const BoardingFacilities = () => {
       </div>
       <div className="flexy breadcrumb">
         <div className="col-md-1">&nbsp;</div>
-        <a href="#">
+        <Link to={"/"}>
           <img className="col-md-12 home-icon" src={Home} alt="Scholar" />
-        </a>
+        </Link>
         <p>Facilities</p>
         <p>Boarding Facilities</p>
       </div>

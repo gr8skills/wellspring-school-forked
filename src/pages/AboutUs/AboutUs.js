@@ -90,7 +90,7 @@ export const AboutUs = () => {
               {" "}
               <img className="col-md-10 col-12" src={Message} alt="Scholar" />
               <div className="overlay2">
-                <h5>Principal's Message</h5>
+                <h5>Principal's Message </h5>
               </div>
             </Link>
           </div>
@@ -112,13 +112,20 @@ export const AboutUs = () => {
                 alt="Scholar"
               />
               <div className="overlay2">
-                <h5>Discipline</h5>
+                <h5>
+                  {" "}
+                  
+                  Discipline
+                </h5>
               </div>
             </Link>
           </div>
         </div>
       </div>
-      <div className="col-md-12 flexy link-imgs mb3" style={{ marginTop: "40px" }}>
+      <div
+        className="col-md-12 flexy link-imgs mb3"
+        style={{ marginTop: "40px" }}
+      >
         <div className="col-md-3">&nbsp;</div>
         <div className="col-md-6 flexy">
           <div className="col-md-6 holder2 holder-up">

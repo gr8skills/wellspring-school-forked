@@ -62,7 +62,6 @@ function NavBar({sticky}) {
   return (
     <>
       <nav className={sticky ? "navContainer navbar-sticky" : "navContainer"}>
-        
         <div className={classes.navCont}>
           <div className={classes.imgCont} id="mobile-logo">
             <Link to={"/"}>
@@ -88,11 +87,11 @@ function NavBar({sticky}) {
               onMouseLeave={onMouseLeave}
             >
               <NavLink
-                to={"/about"}
+                to={"/about-us"}
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                ABOUT
+              ABOUT
               </NavLink>
               {activeMenu.menu1 && <Dropdown menuArray={navMenus.about} />}
             </li>
@@ -131,11 +130,11 @@ function NavBar({sticky}) {
               onMouseLeave={onMouseLeave}
             >
               <NavLink
-                to={"/facilities"}
+                to={"/physical-facilities"}
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                FACILITIES
+              FACILITIES
               </NavLink>
               {activeMenu.menu4 && <Dropdown menuArray={navMenus.facilities} />}
             </li>
@@ -162,7 +161,7 @@ function NavBar({sticky}) {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                SCHOOL LIFE
+               SCHOOL LIFE
               </Link>
             </li>
             <li
@@ -175,7 +174,7 @@ function NavBar({sticky}) {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                NEWS{" "}
+                 NEWS
               </Link>
             </li>
             <li
@@ -194,7 +193,7 @@ function NavBar({sticky}) {
             <div className="wrapper">
               <ul className="mainMenu">
                 <li className="item" id="support">
-                  <a href="/" class="btn">
+                  <a href="/" className="btn">
                     HOME
                   </a>
                 </li>
@@ -248,12 +247,12 @@ function NavBar({sticky}) {
                   </div>
                 </li>
                 <li className="item" id="support">
-                  <a href="/admission" class="btn">
+                  <a href="/admission" className="btn">
                     ADMISSION
                   </a>
                 </li>
                 <li className="item" id="academics">
-                  <a href="#academics" class="btn">
+                  <a href="#academics" className="btn">
                     CURRICULUM
                   </a>
                   <div className="subMenu">
@@ -289,7 +288,7 @@ function NavBar({sticky}) {
                 </li>
 
                 <li className="item" id="admission">
-                  <a href="#admission" class="btn">
+                  <a href="#admission" className="btn">
                     FACILITIES
                   </a>
                   <div className="subMenu">
@@ -325,24 +324,24 @@ function NavBar({sticky}) {
                 </li>
 
                 <li className="item" id="support">
-                  <a href={"/gallery"} class="btn">
+                  <a href="/gallery" className="btn">
                     GALLERY
                   </a>
                 </li>
 
                 <li className="item" id="support">
-                  <a href="/school-life" class="btn">
+                  <a href="/school-life" className="btn">
                     SCHOOL LIFE{" "}
                   </a>
                 </li>
 
                 <li className="item" id="support">
-                  <a href="/blog" class="btn">
+                  <a href="/blog" className="btn">
                     NEWS
                   </a>
                 </li>
                 <li className="item" id="support">
-                  <a href="/contact-us" class="btn">
+                  <a href="/contact-us" className="btn">
                     CONTACT
                   </a>
                 </li>

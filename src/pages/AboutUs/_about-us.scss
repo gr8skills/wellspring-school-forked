@@ -5,13 +5,7 @@
 .holder2 {
   position: relative;
   img{border-radius: 10px;}
-    // background-image: url("../../assets/orange-arrow2.png");
-  // background-repeat: no-repeat;
-  // background-size: 60px;
-  // background-position: 50% 50%;
-  // position: relative;
-  // z-index:10000000;
-  // display:none;
+    
   
 }
 
@@ -31,8 +25,19 @@
   opacity:1;
   color: white;
   font-size: 27px !important;
-  // padding: 40px ;
   text-align:center !important;left:10%;
+  z-index: 1000;
+&:hover{
+  background-image: url("../../assets/yellow-arrow.png");
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: bottom left!important;
+  margin-bottom:-20px;
+    transition: .25s ease !important;
+
+}
+
+
   @media screen and (max-width:620px){
     left:16%;
      font-size: 30px !important;

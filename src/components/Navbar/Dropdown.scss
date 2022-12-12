@@ -4,13 +4,14 @@
     background: #fff !important;
     width: 268px !important;
     position: absolute;
-    top: 26px !important;
+    top: 20px !important;
+    // top: 926px!important;
     list-style: none;
     text-align: start;
     left: auto !important;
-    margin-left: 200px;
+    margin-left: 180px;
     // padding: 20px;
-    z-index: 500000000000000000000000000000000000000000000000000000000000000000000;
+    z-index: 50000000000000000000000000000000000000000000000000000 !important;
 
 }
 
@@ -27,18 +28,7 @@
 	// filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, .1));
 }
 
-.dropdown-menu li {
-    background: #fff!important;
-    cursor: pointer;
-    color: red !important;
-    text-align: left !important;
-    border-bottom: 1px solid #fff;
-}
 
-.dropdown-menu li:hover {
-    background: #F29A38;
-    border-bottom: 1px solid #fff;
-}
 
 .dropdown-menu.clicked {
     display: block;
