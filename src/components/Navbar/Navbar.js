@@ -77,9 +77,15 @@ function NavBar({sticky}) {
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
             >
-              <Link to={"/"} className="nav-links" onClick={closeMobileMenu}>
+              <NavLink
+                exact
+                activeClassName="active"
+                to={"/"}
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 HOME
-              </Link>
+              </NavLink>
             </li>
             <li
               className="nav-item leave"
@@ -91,7 +97,7 @@ function NavBar({sticky}) {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-              ABOUT
+                ABOUT
               </NavLink>
               {activeMenu.menu1 && <Dropdown menuArray={navMenus.about} />}
             </li>
@@ -134,7 +140,7 @@ function NavBar({sticky}) {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-              FACILITIES
+                FACILITIES
               </NavLink>
               {activeMenu.menu4 && <Dropdown menuArray={navMenus.facilities} />}
             </li>
@@ -143,52 +149,52 @@ function NavBar({sticky}) {
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
             >
-              <Link
+              <NavLink
                 to={"/gallery"}
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
                 GALLERY
-              </Link>
+              </NavLink>
             </li>
             <li
               className="nav-item leave"
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
             >
-              <Link
+              <NavLink
                 to={"/school-life"}
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-               SCHOOL LIFE
-              </Link>
+                SCHOOL LIFE
+              </NavLink>
             </li>
             <li
               className="nav-item leave"
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
             >
-              <Link
+              <NavLink
                 to={"/blog"}
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                 NEWS
-              </Link>
+                NEWS
+              </NavLink>
             </li>
             <li
               className="nav-item leave"
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
             >
-              <Link
+              <NavLink
                 to={"/contact-us"}
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
                 CONTACT US
-              </Link>
+              </NavLink>
             </li>
             <div className="wrapper">
               <ul className="mainMenu">
