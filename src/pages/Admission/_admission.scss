@@ -5,9 +5,18 @@
 .videoIcon{
     margin-left:45%;
     margin-bottom:10%;
+    @media screen and (max-width:620px){
+   
+    margin-top:10%;
+    }
+    
  img{
     height:70px;
     width:70px;
+    @media screen and (max-width:620px){
+height:30px;
+    width:30px;
+    }
     
     
  }

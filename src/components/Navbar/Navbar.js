@@ -96,6 +96,7 @@ function NavBar({sticky}) {
                 to={"/about-us"}
                 className="nav-links"
                 onClick={closeMobileMenu}
+                
               >
                 ABOUT
               </NavLink>
